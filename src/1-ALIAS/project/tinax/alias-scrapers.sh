@@ -24,6 +24,7 @@ alias chrome--red='/Applications/Google-Chrome--red.app/Contents/MacOS/Google\ C
 # ### TINAX
 # ###
 PROJECT_TINAX="$HOME/0HOME/0GARAGE/6-APP_TINAX"
+# ###
 alias cdd='cd $PROJECT_TINAX'
 # !!! CRON (mail ou mutt)
 alias cronn='crontab $PROJECT_TINAX/scrap/cron/cronjobs.crontab'
@@ -36,9 +37,6 @@ alias cronr="crontab -r"
 # alias tin=$(codi) '$HOME/0HOME/0GARAGE/6-APP_TINAX'
 alias tin='codi $HOME/0HOME/0GARAGE/6-APP_TINAX'
 alias vvv='cd $PROJECT_TINAX && npm run dev'
-# !!! db
-alias emu='cd $PROJECT_TINAX && npm run emu'
-alias emu--kill='cd $PROJECT_TINAX && npm run emu--kill'
 # !!! ts
 alias ts='cd $PROJECT_TINAX && npm run ts | h -ni "0 errors" "watch mode" ": error " ".ts\(" ": cannot find module|has no exported member|: Module " "errors" "\[0\] " "TS2305"'
 alias tin2-scrapper--ts='cd $PROJECT_TINAX && npm run scrapper--ts'
