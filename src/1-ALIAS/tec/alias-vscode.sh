@@ -5,3 +5,7 @@
 #@@@ git config --global core.editor "code --wait"
 alias vscode--save-plugin="$CODE --list-extensions > extensions-VS-25-juill-2022.list"
 alias vscode--load-plugin="cat extensions.list |% { $CODE --install-extension $_}"
+
+# ### vs-code
+# export codi="$(code-insiders)"
+# alias codi="code-insiders"
