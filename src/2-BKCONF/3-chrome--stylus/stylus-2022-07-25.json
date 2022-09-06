@@ -1,0 +1,187 @@
+[
+  {
+    "settings": {
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
+      "windowPosition": {},
+      "show-badge": true,
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeStyleName": false,
+      "newStyleAsUsercss": false,
+      "styleViaXhr": false,
+      "patchCsp": false,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "system",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.breadcrumbs": true,
+      "popup.breadcrumbs.usePath": false,
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "u",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": true,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.newUI": true,
+      "manage.newUI.favicons": false,
+      "manage.newUI.faviconsGray": true,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "default",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true,
+        "indent_mozdoc": true
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "black",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "sync.enabled": "none",
+      "iconset": -1,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
+      "popupWidth": 246,
+      "updateInterval": 24
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "enabled": true,
+    "installDate": 1658538569304,
+    "name": "tinder.com",
+    "sections": [
+      {
+        "code": ".CenterAlign.H\\(100\\%\\).Fxd\\(c\\) {\n    background: black;\n}\n\n.D\\(f\\).Fx\\(\\$flx1\\).Fxd\\(c\\).H\\(100\\%\\).Z\\(0\\).Bgc\\(\\#fff\\) {\n    background: black;\n}\ndiv#SC\\.chat_62574ff0751694010065331162d8dede55229101000cf26f {\n    background: black;\n}\n.Bgc\\(\\#fff\\).Fxg\\(1\\).Z\\(1\\).Pb\\(16px\\)--ml.Pb\\(60px\\) {\n    background: yellowgreen;\n}\ndiv#t1273415981 {\n    background: dodgerblue;\n}\n.D\\(f\\).Ai\\(c\\).Jc\\(sb\\).Py\\(12px\\)--m.Py\\(16px\\)--l.Cf--s.BdB.Bdc\\(\\$c-divider\\).Ta\\(c\\).W\\(100\\%\\).Bgc\\(\\#fff\\).Px\\(24px\\)--ml.Bxsh\\(\\$bxsh-4-way-spread\\) {\n    background: burlywood;\n}\ndiv#SC\\.chat_5dc4b275f2f2170100d1742c60b0ce401feefd01003ca689 {\n    background: green;\n}\n.chat.Pos\\(a\\)--s.Bgc\\(\\#fff\\).Pos\\(r\\).T\\(0\\).Expand.D\\(f\\).Fx\\(\\$flx1\\).Fxd\\(c\\) {\n    background: blueviolet;\n}\n.chat{\n    background: blueviolet;\n}",
+        "domains": ["tinder.com"]
+      }
+    ],
+    "updateDate": 1658538903911,
+    "_id": "0bd2feb4-2943-413b-b9d9-be067afc9da3",
+    "_rev": 1658538903911,
+    "id": 1
+  },
+  {
+    "enabled": true,
+    "installDate": 1658540144095,
+    "name": "contacts.google.com",
+    "sections": [
+      {
+        "code": "c-wiz.zQTmif.SSPGKf.eejsDc {\n    background: cadetblue;\n}\n.gb_Nc {\n    background: burlywood;\n}\n.gb_Ld.gb_2d.gb_Rd {\n    background: black;\n}\n.as9eHe {\n    background: cadetblue;\n}",
+        "domains": ["contacts.google.com"]
+      }
+    ],
+    "updateDate": 1658540253531,
+    "_id": "83601fc4-9e69-46e7-8f04-2cffc3e310bf",
+    "_rev": 1658540253531,
+    "id": 2
+  },
+  {
+    "enabled": true,
+    "installDate": 1658541503555,
+    "name": "drive.google.com",
+    "sections": [
+      {
+        "code": "c-wiz.Y9nbBe.i6Fqyc {\n    background: midnightblue;\n}\n.a-da-ub-ce {\n    background: black;\n}\n.gb_Ld.gb_2d.gb_Rd {\n    background: black;\n}\n.a-s-tb-sc-Ja.a-s-tb-Kg.a-l-Ba.a-s-tb-sc-Ja-J {\n    background: bisque;\n}",
+        "domains": ["drive.google.com"]
+      }
+    ],
+    "updateDate": 1658541553151,
+    "_id": "ef9f343c-8879-45cb-bdcb-ef14533b6bba",
+    "_rev": 1658541553151,
+    "id": 3
+  },
+  {
+    "enabled": true,
+    "installDate": 1658590886926,
+    "name": "www.instagram.com",
+    "sections": [
+      {
+        "code": "main._a993._a995 {\n    background: black;\n}\n._acum {\n    background: #3da590 !important;\n}",
+        "domains": ["www.instagram.com"]
+      }
+    ],
+    "updateDate": 1658590996531,
+    "_id": "91472dbb-b285-44b5-b82c-9ad34336a802",
+    "_rev": 1658590996531,
+    "id": 4
+  },
+  {
+    "enabled": true,
+    "installDate": 1658684258365,
+    "name": "superuser.com",
+    "sections": [
+      {
+        "code": "/* ################ */\n/* FORM */\n/* ################ */\nform#post-form {\n    display: none;\n}\nheader.s-topbar.ps-fixed.t0.l0.js-top-bar {\n    display: none;\n}\n/* ################ */\n/* ################ */\n/* ################ */\n/* ################ */\nfooter#footer {\n    display: none;\n}\n.js-vote-count.flex--item.d-flex.fd-column.ai-center.fc-black-500.fs-title {\n    background: #ffcc00;\n}\n.answers-subheader.d-flex.ai-center.mb8 {\n    background: #ff9500;\n    color: white;\n}\n.answercell{\n    background: #80bc23fc;\n}\nbody {\n    background: #5e9705;\n    color:  black !important;\n}\n.inner-content.clearfix {\n    background: #ceaf71;\n}\ndiv#content {\n    background: #85ab8d;\n}\n.postcell {\n    background: #65bab1;\n}\n.answer .js-accepted-answer-indicator{\n    background: black;\n    \n}\na{\n    color: blue;\n}\na[role='button']{\n    color: black;\n    text-transform: uppercase;\n    border: 1px solid blue;\n}\na:hover{\n        color: white;\n    background:  blue;\n    text-decoration:  none;\n}\na[role='button']:hover{\n    color: white;\n    background:  blue;\n}\n.post-signature {\n    background: #0e420a;\n\n}\n.post-signature a{\n    color: red;\n    text-decoration: underline;\n\n}\n.post-signature a:hover{\n    background: red;\n    color: white\n\n}\ndiv#sidebar {\n    display: none;\n}\ndiv#left-sidebar {\n    display: none;\n}\n.js-vote-count.flex--item.d-flex.fd-column.ai-center.fc-black-500.fs-title {\n    color: black !important;\n}\nh1.fs-headline1.ow-break-word.mb8.flex--item.fl1 {\n    background: #111018;\n    padding: 20px;\n}\n.d-flex.gs8.s-anchors.s-anchors__muted.fw-wrap {\n    display: none !important;\n}\nblockquote {\n    background: blueviolet;\n}",
+        "domains": ["superuser.com", "stackoverflow.com"]
+      }
+    ],
+    "updateDate": 1658700246283,
+    "_id": "38ab84b7-21d8-4e50-ba4a-e66db9fa2aea",
+    "_rev": 1658700246283,
+    "id": 5
+  },
+  {
+    "enabled": true,
+    "installDate": 1658695010165,
+    "name": "github.com",
+    "sections": [
+      {
+        "code": "td.d-block.comment-body.markdown-body.js-comment-body {\n    background: #65bab1;\n    color: black;\n}\nspan.State.State--merged.State--small {\n    padding: 20px;\n    background: green;\n}\n.comment-reactions.js-reactions-container.js-reaction-buttons-container.social-reactions.reactions-container.has-reactions.flex-row-reverse.flex-justify-end.d-md-flex {\n    display: none !important;\n}\n.discussion-timeline-actions {\n    display: none;\n}\n.position-relative.d-flex.flex-items-center.pb-2.f6.color-fg-muted.border-top.color-border-muted.flex-column-reverse.flex-lg-row.flex-wrap.flex-lg-nowrap.mt-6.pt-6 {\n    display: none !important;\n}",
+        "domains": ["github.com"]
+      }
+    ],
+    "updateDate": 1658695284164,
+    "_id": "7e082789-d51a-4ecd-920e-f5f98eb695e9",
+    "_rev": 1658695284164,
+    "id": 6
+  }
+]

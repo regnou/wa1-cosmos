@@ -1,0 +1,193 @@
+{
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "Darkside (rainglow)",
+  "workbench.sideBar.location": "right",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#b4b4b4",
+    // bracket
+    "editorBracketHighlight.foreground1": "#bc04ea",
+    "editorBracketHighlight.foreground2": "#bc04ea",
+    "editorBracketHighlight.foreground3": "#bc04ea",
+    "editorBracketHighlight.foreground4": "#bc04ea",
+    "editorBracketHighlight.foreground5": "#bc04ea",
+    "editorBracketHighlight.foreground6": "#bc04ea",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+  },
+  "editor.fontFamily": "Firicico",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "none",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.cursorWidth": 3,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.guides.bracketPairs": "active", // this adds the green line
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["variable.parameter.ts"],
+        "settings": {
+          // "foreground": "#275bc4",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["entity.name.function.ts"],
+        "settings": {
+          // "foreground": "#275bc4",
+          // "fontStyle": "bold underline"
+        }
+      },
+      {
+        "scope": ["comment"],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "files.autoSave": "off",
+  "search.showLineNumbers": true,
+  "search.exclude": {
+    "**/static/": true,
+    "**/.svelte-kit/": true,
+    ".svelte-kit/": true,
+    "**/z/": true,
+    "**/node_modules/": true,
+    "**/public/": true,
+    "**/build/": true,
+    "**/.firebase/": true,
+    "**/.git/": true,
+    "**.lock": true,
+    "**lock.json": true
+  },
+  "files.exclude": {
+    "**/build": true,
+    "**/.svelte-kit": true,
+    "**/.firebase": true,
+    "**/ui-debug.log": true,
+    "**/yarn.lock": true,
+    "**/yarn-error.log": true,
+    "**/firestore-debug.log": true,
+    "**/package-lock.json": true,
+    "**/node_modules": true
+  },
+  "debug.javascript.terminalOptions": {
+    "skipFiles": ["<node_internals>/**"]
+  },
+  "window.zoomLevel": 3,
+  "svelte.enable-ts-plugin": true,
+  "debug.console.wordWrap": false,
+  "todohighlight.keywords": [
+    // {
+    //   "text": "async",
+    //   "color": "yellow",
+    //   "backgroundColor": "transparent",
+    //   "isWholeLine": true,
+    //   "overviewRulerColor": "transparent"
+    // },
+    {
+      "text": "#!/bin/sh",
+      "color": "orange",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "#!/bin/zsh",
+      "color": "green",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "#!/bin/bash",
+      "color": "cyan",
+      "backgroundColor": "black",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "!!!",
+      "color": "darkgray",
+      "backgroundColor": "#334155",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "!!",
+      "color": "gray",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "console.",
+      "color": "#334155",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "{/each}",
+      "color": "#03af49",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "{#each",
+      "color": "#03af49",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "for (",
+      "color": "#03af49",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "{#if",
+      "color": "orange",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "{/if}",
+      "color": "orange",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "if (",
+      "color": "yellow",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "else",
+      "color": "yellow",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    }
+  ],
+  "editor.accessibilitySupport": "off",
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
+  // "vitest.enable": true,
+  // "gitlens.hovers.currentLine.over": "line"
+}
