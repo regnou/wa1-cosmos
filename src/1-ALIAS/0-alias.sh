@@ -11,7 +11,7 @@ alias rc='codi $AXELRC'
 . "$AXELRC/1-ALIAS/tec/alias-unix.sh"
 . "$AXELRC/1-ALIAS/tec/alias-vscode.sh"
 # by-project
-. "$AXELRC/1-ALIAS/project/tinax/alias-project.sh"
+. "$AXELRC/1-ALIAS/project/alias-project.sh"
 . "$AXELRC/1-ALIAS/project/tinax/alias-scraper.sh"
 # path folders
 alias PP='echo $PATH | tr ":" "\n" | sort -r --ignore-case  | fzf'
