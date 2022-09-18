@@ -36,7 +36,7 @@ brew install delta # RUST
 # MODIFY IN FILE
 brew install sd # RUST > sed like
 # FIND FILE
-brew install fd
+brew install fd # RUST
 # SYS-ADMIN
 brew install procs    # RUST
 brew tap cjbassi/ytop # RUST

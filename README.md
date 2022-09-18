@@ -1,3 +1,5 @@
+zip -er FILENAME.zip
+
 @@@
 @@@ CONTACT - Axel REGNOULT
 @@@
