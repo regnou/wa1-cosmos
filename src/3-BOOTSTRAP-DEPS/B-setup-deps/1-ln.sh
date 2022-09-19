@@ -15,8 +15,8 @@ ln -sf ~/.gitconfig ~/AXELRC/src/2-BKCONF/0-LN/git/.gitmessage
 # vs-code
 # ln -sf ~/Library/Application\ Support/Code\ -\ Insiders/User/settings.json ~/AXELRC/src/2-BKCONF/0-LN/vs/settings.json
 # ln -sf ~/Library/Application\ Support/Code\ -\ Insiders/User/keybindings.json ~/AXELRC/src/2-BKCONF/0-LN/vs/keybindings.json
-ln -sf ~/Library/Application\ Support/Code/User/settings.json ~/AXELRC/src/2-BKCONF/0-LN/vs/settings.json
-ln -sf ~/Library/Application\ Support/Code/User/keybindings.json ~/AXELRC/src/2-BKCONF/0-LN/vs/keybindings.json
+ln ~/Library/Application\ Support/Code/User/settings.json ~/AXELRC/src/2-BKCONF/0-LN/vs/settings.json
+ln ~/Library/Application\ Support/Code/User/keybindings.json ~/AXELRC/src/2-BKCONF/0-LN/vs/keybindings.json
 
 # zsh
 ln -sf ~/.zshrc ~/AXELRC/src/2-BKCONF/0-LN/.zshrc

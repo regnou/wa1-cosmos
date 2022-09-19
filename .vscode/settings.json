@@ -7,7 +7,6 @@
 
   // --- search
   "search.exclude": {
-    "bin": true,
     "lib": true
   },
 
