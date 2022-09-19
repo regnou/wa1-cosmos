@@ -4,13 +4,11 @@
 #@@@
 
 # bash
-ln -sf ~/.bash_profile ~/AXELRC/src/2-BKCONF/0-LN/bash/.bash_profile
-ln -sf ~/.bashrc ~/AXELRC/src/2-BKCONF/0-LN/bash/.bashrc
+ln ~/.bash_profile ~/AXELRC/src/2-BKCONF/0-LN/bash/.bash_profile
+ln ~/.bashrc ~/AXELRC/src/2-BKCONF/0-LN/bash/.bashrc
 
-# git
-ln -sf ~/.gitignore_global ~/AXELRC/src/2-BKCONF/0-LN/git/.gitignore_global
-ln -sf ~/.gitconfig ~/AXELRC/src/2-BKCONF/0-LN/git/.gitconfig
-ln -sf ~/.gitconfig ~/AXELRC/src/2-BKCONF/0-LN/git/.gitmessage
+# zsh
+ln ~/.zshrc ~/AXELRC/src/2-BKCONF/0-LN/.zshrc
 
 # vs-code
 # ln -sf ~/Library/Application\ Support/Code\ -\ Insiders/User/settings.json ~/AXELRC/src/2-BKCONF/0-LN/vs/settings.json
@@ -18,11 +16,13 @@ ln -sf ~/.gitconfig ~/AXELRC/src/2-BKCONF/0-LN/git/.gitmessage
 ln ~/Library/Application\ Support/Code/User/settings.json ~/AXELRC/src/2-BKCONF/0-LN/vs/settings.json
 ln ~/Library/Application\ Support/Code/User/keybindings.json ~/AXELRC/src/2-BKCONF/0-LN/vs/keybindings.json
 
-# zsh
-ln -sf ~/.zshrc ~/AXELRC/src/2-BKCONF/0-LN/.zshrc
-
 # starship
-ln -sf ~/.config/starship.toml ~/AXELRC/src/2-BKCONF/0-LN/starship.toml
+ln ~/.config/starship.toml ~/AXELRC/src/2-BKCONF/0-LN/starship.toml
+
+# git
+ln ~/.gitignore_global ~/AXELRC/src/2-BKCONF/0-LN/git/.gitignore_global
+ln ~/.gitconfig ~/AXELRC/src/2-BKCONF/0-LN/git/.gitconfig
+ln ~/.gitconfig ~/AXELRC/src/2-BKCONF/0-LN/git/.gitmessage
 
 # ---
 # ---

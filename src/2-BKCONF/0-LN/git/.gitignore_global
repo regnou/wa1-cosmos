@@ -1,1 +1,79 @@
-/Users/yo/.gitignore_global
+###
+### [29 JUIN 2022] [GIT-IGNORE--GLOBAL]
+###
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# env
+.env
+.env.*
+.env.local
+.env.*.local
+!.env.example
+
+# Firebase cache
+.firebase/
+
+# sveltekit
+.svelte
+.svelte-kit
+package
+
+# deps
+node_modules
+
+# log (debug)
+logs
+*.log
+# npm-debug.log* # yarn-debug.log* # yarn-error.log*
+
+#@@@ playwright
+test-results
+playwright-report
+playwright/.cache
+
+# [lock]
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Storybook
+storybook-static
+storybook-static/*
+
+# vercel
+.vercel_build_output
+.vercel
+
+# jest
+coverage
+coverage/*
+
+# KDE/Linux generated files
+# .directory
+
+# Runtime data
+# pids
+# *.pid
+# *.seed
+# *.pid.lock
+# *.eslintcache
+
+# yarn
+# .yarn/*
+# .yarn/cache
+# .yarn/patches
+# .yarn/plugins
+# .yarn/releases
+# .yarn/sdks
+# .yarn/versions
+
+# cypress
+# cypress/videos
+# cypress/screenshots
