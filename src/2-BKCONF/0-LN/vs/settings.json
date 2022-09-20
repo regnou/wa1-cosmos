@@ -1,5 +1,5 @@
 {
-  // 19 sept ok
+  // 19 sept ok - jojo
   // --- highlight--color [off]
   // "color-highlight.markRuler": false,
 
@@ -114,25 +114,19 @@
       "backgroundColor": "olive",
       "overviewRulerColor": "transparent"
     },
+
     {
-      "text": "&&&",
-      "color": "darkgray",
-      "backgroundColor": "#334155",
+      "text": "console.",
       "isWholeLine": true,
+      "color": "Gainsboro",
+      "backgroundColor": "transparent",
       "overviewRulerColor": "transparent"
     },
     {
-      "text": "&&&",
+      "text": "constructor(",
+      "isWholeLine": false,
       "color": "black",
-      "backgroundcolor": "palegreen",
-      "isWholeLine": true,
-      "overviewRulerColor": "transparent"
-    },
-    {
-      "text": "&&&",
-      "color": "#114839",
-      "backgroundColor": "#229977",
-      "isWholeLine": true,
+      "backgroundColor": "gainsboro",
       "overviewRulerColor": "transparent"
     },
     {
@@ -183,6 +177,56 @@
       "isWholeLine": false,
       "color": "white",
       "backgroundColor": "#0076b6",
+      "overviewRulerColor": "transparent"
+    },
+
+    {
+      "text": "pnpm-lock.yaml",
+      "isWholeLine": false,
+      "color": "black",
+      "backgroundColor": "PaleGreen",
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "package-lock.json",
+      "isWholeLine": false,
+      "color": "black",
+      "backgroundColor": "PaleGreen",
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "yarn.lock",
+      "isWholeLine": false,
+      "color": "black",
+      "backgroundColor": "PaleGreen",
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "node_modules",
+      "isWholeLine": false,
+      "color": "black",
+      "backgroundColor": "PaleGreen",
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": ".env",
+      "isWholeLine": false,
+      "color": "black",
+      "backgroundColor": "PaleGreen",
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "/static",
+      "isWholeLine": false,
+      "color": "black",
+      "backgroundColor": "PaleGreen",
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "/build",
+      "isWholeLine": false,
+      "color": "black",
+      "backgroundColor": "PaleGreen",
       "overviewRulerColor": "transparent"
     },
     {
@@ -477,6 +521,13 @@
     },
     // %%%
     {
+      "text": "~",
+      "isWholeLine": false,
+      "color": "white",
+      "backgroundColor": "black",
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "debugger",
       "color": "white",
       "backgroundColor": "purple",
@@ -530,13 +581,6 @@
       "color": "white",
       "backgroundColor": "red",
       "isWholeLine": false,
-      "overviewRulerColor": "transparent"
-    },
-    {
-      "text": "~",
-      "isWholeLine": false,
-      "color": "white",
-      "backgroundColor": "black",
       "overviewRulerColor": "transparent"
     },
     {
@@ -610,14 +654,6 @@
       "backgroundColor": "red",
       "overviewRulerColor": "transparent"
     },
-    // %%%
-    // {
-    //   "text": "return null;",
-    //   "isWholeLine": false,
-    //   "color": "pink",
-    //   "backgroundColor": "red",
-    //   "overviewRulerColor": "transparent"
-    // },
     {
       "text": " (error)",
       "isWholeLine": false,
@@ -625,6 +661,28 @@
       "backgroundColor": "red",
       "overviewRulerColor": "transparent"
     },
+    {
+      "text": "throw error(",
+      "isWholeLine": false,
+      "color": "whitesmoke",
+      "backgroundColor": "red",
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "throw new Error(",
+      "isWholeLine": false,
+      "color": "whitesmoke",
+      "backgroundColor": "red",
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "throw ",
+      "isWholeLine": false,
+      "color": "whitesmoke",
+      "backgroundColor": "red",
+      "overviewRulerColor": "transparent"
+    },
+    // %%%
     {
       "text": "false",
       "isWholeLine": false,
@@ -906,46 +964,12 @@
       "backgroundColor": "transparent",
       "overviewRulerColor": "transparent"
     },
-    {
-      "text": "throw error(",
-      "isWholeLine": false,
-      "color": "whitesmoke",
-      "backgroundColor": "red",
-      "overviewRulerColor": "transparent"
-    },
-    {
-      "text": "throw new Error(",
-      "isWholeLine": false,
-      "color": "whitesmoke",
-      "backgroundColor": "red",
-      "overviewRulerColor": "transparent"
-    },
-    {
-      "text": "console.",
-      "isWholeLine": true,
-      "color": "Gainsboro",
-      "backgroundColor": "transparent",
-      "overviewRulerColor": "transparent"
-    },
-    {
-      "text": "throw ",
-      "isWholeLine": false,
-      "color": "whitesmoke",
-      "backgroundColor": "red",
-      "overviewRulerColor": "transparent"
-    },
+
     {
       "text": "${",
       "isWholeLine": false,
       "color": "red",
       "backgroundColor": "transparent",
-      "overviewRulerColor": "transparent"
-    },
-    {
-      "text": "constructor(",
-      "isWholeLine": false,
-      "color": "black",
-      "backgroundColor": "gainsboro",
       "overviewRulerColor": "transparent"
     },
     {
@@ -1030,27 +1054,6 @@
       "text": "let ",
       "isWholeLine": false,
       "color": "gainsboro",
-      "backgroundColor": "transparent",
-      "overviewRulerColor": "transparent"
-    },
-    {
-      "text": "console.trace",
-      "isWholeLine": false,
-      "color": "turquoise",
-      "backgroundColor": "transparent",
-      "overviewRulerColor": "transparent"
-    },
-    {
-      "text": "console.table(",
-      "isWholeLine": false,
-      "color": "turquoise",
-      "backgroundColor": "transparent",
-      "overviewRulerColor": "transparent"
-    },
-    {
-      "text": "console.dir(",
-      "isWholeLine": false,
-      "color": "turquoise",
       "backgroundColor": "transparent",
       "overviewRulerColor": "transparent"
     },
@@ -1335,6 +1338,13 @@
       "overviewRulerColor": "transparent"
     },
     {
+      "text": "@@@",
+      "isWholeLine": true,
+      "color": "black",
+      "backgroundColor": "MediumAquamarine",
+      "overviewRulerColor": "transparent"
+    },
+    {
       "text": "test(",
       "color": "black",
       "backgroundColor": "gainsboro",
@@ -1472,13 +1482,6 @@
       "isWholeLine": true,
       "color": "black",
       "backgroundColor": "gainsboro",
-      "overviewRulerColor": "transparent"
-    },
-    {
-      "text": "@@@",
-      "isWholeLine": true,
-      "color": "black",
-      "backgroundColor": "MediumAquamarine",
       "overviewRulerColor": "transparent"
     },
     // {
@@ -1896,7 +1899,8 @@
   "search.exclude": {
     "**/.svelte-kit": true,
     "**/node_modules": true,
-    "**/*.log": true
+    "**/*.log": true,
+    "**/*-lock*": true
   },
   // %%%
   // %%% FORMAT - https://github.com/sveltejs/prettier-plugin-svelte
@@ -2018,7 +2022,8 @@
   "highlightwords.box": {
     "light": false,
     "dark": false
-  }
+  },
+  "window.zoomLevel": 1
 
   // END
   // ---
