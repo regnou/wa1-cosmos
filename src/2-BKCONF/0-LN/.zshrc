@@ -1,6 +1,6 @@
 #!/bin/sh
 # %%%
-# %%% 29 juin 2022 jojo 3
+# %%% 29 juin 2022 jojo 4
 # %%%
 # echo "🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳"
 # echo "🌳 > [start] $SHELL >> [node $(node -v)] 🌳"
@@ -9,9 +9,9 @@
 # %%%
 # %%%  COMMON-IMPORTS ~
 # %%%
-# shellcheck source=/Users/yo/AXELRC/1-ALIAS/common/alias-imports.sh
-. ~/"AXELRC/src/1-ALIAS/common/alias-imports.sh"
-# shellcheck source=/Users/yo/AXELRC/1-ALIAS/common/alias-layout1--header.sh
+# shellcheck source=/Users/yo/0HOME/0WEBAGENCY/0GH/AXELRC/src/1-ALIAS/common/alias-imports.sh
+. ~/"0HOME/0WEBAGENCY/0GH/AXELRC/src/1-ALIAS/common/alias-imports.sh"
+# shellcheck source=/Users/yo/0HOME/0WEBAGENCY/0GH/AXELRC/src/1-ALIAS/common/alias-layout1--header.sh
 . "$AXELRC/1-ALIAS/common/alias-layout1--header.sh"
 
 # %%%
