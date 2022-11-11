@@ -3,13 +3,13 @@
 #@@@ GIT
 #@@@
 
-# delete branch locally
+# -- delete branch locally
 # git branch -d localBranchName
 
-# delete branch remotely
+# -- delete branch remotely
 # git push origin --delete remoteBranchName
 
-# FIRST INSTALL PROCESS
+# -- FIRST INSTALL PROCESS
 # Create ssh key for git (press enter for default file location)
 # ssh-keygen -t rsa -b 4096 -C "youremail@domain.com"
 # Start ssh-agent in background
@@ -39,6 +39,7 @@ alias git-commit--theirs='git commit `git status | grep "both added:" | awk "{pr
 alias g='git'
 alias git-open='git-open'
 alias git-clone='git clone'
+
 alias NEW_LINE='echo -----' ##
 
 # diff ce qui est commit (repo distant)
@@ -59,7 +60,7 @@ git__voir_fichiers_simple() {
   #'\/java\/com\/groupemre\/atnv2\/'
 }
 
-#
+# .
 git__sshow() {
   ##git show  --oneline --decorate --stat --graph $1 | h -ni $1  '\/java\/com\/groupemre\/atnv2\/'  'files changed' insertions deletions  \\.java \\.ui\\.xml exception xml | h -i presenter popup module service dao validator filter bulksend editor create  \\+ \\-
   git show --oneline --decorate --stat "$1" | h -ni "$1" '\/java\/com\/groupemre\/atnv2\/' 'files changed' insertions deletions \\.java \\.ui\\.xml exception xml | h -i presenter popup module service dao validator filter bulksend editor create \\+ \\-
@@ -119,7 +120,7 @@ alias git-remote-add-origin='git remote add origin'
 # create remote branch
 alias git-push--set-upstream='git push --set-upstream origin master'
 
-#
+# .
 # https://salferrarello.com/view-current-commit-message-during-git-rebase-conflict/
 # Update If you are running Git 2.17 or newer, it turns out you can view the current commit in the ongoing rebase with
 # git rebase --show-current-patch
@@ -129,7 +130,7 @@ alias git-push--set-upstream='git push --set-upstream origin master'
 # git diff --staged
 # Because we have rewritten history, we need to overwrite the remote branch (rather than just add commits). To do this we add --force-with-lease to our git push.
 # git push --force-with-lease
-#
+# .
 
 # RESET vs REVERT
 # git revert = Public branch (cree un commit qui efface l autre)

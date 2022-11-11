@@ -2,6 +2,7 @@
 #@@@
 #@@@ unix
 #@@@
+
 # clear history
 # history -c (bash)
 # history -p (zsh)

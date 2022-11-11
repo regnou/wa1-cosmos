@@ -1,9 +1,19 @@
-# Nvm / Node
+#!/bin/sh
+#@@@
+#@@@ NODE NPM
+#@@@
+
+# €€€
+# €€€ Node
+# €€€
 alias nv='node -v'
 alias nv-16='nvm use 16.10.0'
 alias nv-18='nvm use 18.4.0'
 alias ppp='cat package.json | h scripts dependencies devDependencies name start build deploy init test'
 
+# €€€
+# €€€ NPM
+# €€€
 alias formatt='clear && npm run format | h -ni ".test" "\.cjs" "\.json" "\.svelte"  "\.html" "\.css" "\.js" "\.ts" "\.scss"  '
 export BOUCHON__LINT='\
 "unexpected any warning" \

@@ -1,7 +1,7 @@
 #!/bin/sh
-# %%%
-# %%% 29 juin 2022 jojo 4
-# %%%
+# €€€
+# €€€ ZSH-RC -- 11 nov
+# €€€
 # echo "🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳"
 # echo "🌳 > [start] $SHELL >> [node $(node -v)] 🌳"
 # echo "🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳"
@@ -9,10 +9,10 @@
 # %%%
 # %%%  COMMON-IMPORTS ~
 # %%%
-# shellcheck source=/Users/yo/0HOME/0WEBAGENCY/0GH/AXELRC/src/1-ALIAS/common/alias-imports.sh
-. ~/"0HOME/0WEBAGENCY/0GH/AXELRC/src/1-ALIAS/common/alias-imports.sh"
-# shellcheck source=/Users/yo/0HOME/0WEBAGENCY/0GH/AXELRC/src/1-ALIAS/common/alias-layout1--header.sh
-. "$AXELRC/1-ALIAS/common/alias-layout1--header.sh"
+# shellcheck source=/Users/yo/0HOME/0WEBAGENCY/0GH/AXELRC/src/1-ALIAS/commonTermBoost/alias-exports.sh
+. ~/"0HOME/0WEBAGENCY/0GH/AXELRC/src/1-ALIAS/commonTermBoost/alias-exports.sh"
+# shellcheck source=/Users/yo/0HOME/0WEBAGENCY/0GH/AXELRC/src/1-ALIAS/commonTermBoost/alias-layout1--header.sh
+. "$AXELRC/1-ALIAS/commonTermBoost/alias-layout1--header.sh"
 
 # %%%
 # %%% SETUP ZSH
@@ -49,9 +49,9 @@ setopt INC_APPEND_HISTORY
 setopt EXTENDED_HISTORY
 setopt HIST_IGNORE_ALL_DUPS
 
-# €€€
-# €€€ INIT ZSH LIBs ( + PATH)
-# €€€
+# %%%
+# %%% LIBs ( + PATH)
+# %%%
 pathadd() {
   if [ -d "$1" ] && [[ ":$PATH:" != *":$1:"* ]]; then
     PATH="${PATH:+"$PATH:"}$1"
@@ -98,9 +98,9 @@ export PNPM_HOME="/Users/yo/Library/pnpm"
 pathadd $PNPM_HOME
 
 # %%%
-# %%% COMMON IMPORTS ~
+# %%% COMMON TERM BOOST ~
 # %%%
-. "$AXELRC/1-ALIAS/common/alias-layout2--body.sh"
+. "$AXELRC/1-ALIAS/commonTermBoost/alias-layout2--body.sh"
 
 # %%%
 # %%%
@@ -197,11 +197,11 @@ zstyle ':completion:*:exa' file-sort modification
 zstyle ':completion:*:exa' sort false
 
 # %%%
-# %%% IMPORTS
+# %%% TERM BOOST
 # %%%
-. "$AXELRC/1-ALIAS/common/alias-layout3--footer.sh"
+. "$AXELRC/1-ALIAS/commonTermBoost/alias-layout3--footer.sh"
 
-# ### @the end of .rc
+# @the end of .rc
 # --- fast-move
 eval "$(zoxide init zsh)"
 # --- pimp-my-prompt

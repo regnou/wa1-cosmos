@@ -1,20 +1,9 @@
 #!/bin/sh
-# $$$
-# $$$
-# $$$
-# PROJECT_CURRENT="$HOME/0HOME/0GARAGE/APP_blog"
-# $$$
-# $$$
-# $$$
-# %%%
-# %%% DB
-# %%%
-alias emu=' npm run emu'
-alias emu--kill=' npm run emu--kill'
+#@@@
+#@@@ SCRAPER
+#@@@
 
-# &&&
-# &&& CHROME
-# &&&
+# CHROME
 # &&& (tin non-payant)
 alias chrome--green='/Applications/Google-Chrome--green.app/Contents/MacOS/Google\ Chrome \
               --user-data-dir=$HOME/0HOME/datadir/datadir--green'

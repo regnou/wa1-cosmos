@@ -1,8 +1,8 @@
 #!/bin/sh
 #@@@
-#@@@ IMPORTS
+#@@@ EXPORTS
 #@@@
-# AXEL
+# AXEL-RC PATH
 export AXELRC=~/"0HOME/0WEBAGENCY/0GH/AXELRC/src"
 export AXELRCLIB=~/"0HOME/0WEBAGENCY/0GH/AXELRC/lib"
 # LANG

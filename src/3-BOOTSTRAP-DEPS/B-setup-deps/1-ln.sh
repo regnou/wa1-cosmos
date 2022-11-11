@@ -24,9 +24,9 @@ ln ~/.gitignore_global ~/AXELRC/src/2-BKCONF/0-LN/git/.gitignore_global
 ln ~/.gitconfig ~/AXELRC/src/2-BKCONF/0-LN/git/.gitconfig
 ln ~/.gitconfig ~/AXELRC/src/2-BKCONF/0-LN/git/.gitmessage
 
-# ---
-# ---
-# ---
+# ---$$$
+# ---$$$
+# ---$$$
 # exercise on hard links
 # These assume you have the macOS Auto-Save feature turned off.
 
