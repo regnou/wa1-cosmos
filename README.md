@@ -1,4 +1,6 @@
-# AXEL-RC [chap 1 - le Cosmos]
+# AXEL-RC
+
+##[chap 1 - le Cosmos]
 
 ![logo](https://github.com/regnou/app-dotfile/blob/main/i/energy.webp)
 
