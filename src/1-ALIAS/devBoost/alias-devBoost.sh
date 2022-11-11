@@ -6,6 +6,8 @@
 alias codi="code"
 alias rc='codi $AXELRC'
 
+# zip -er FILENAME.zip
+
 # vs-code
 # export codi="$(code-insiders)"
 # alias codi="code-insiders"
