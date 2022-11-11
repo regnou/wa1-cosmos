@@ -1,13 +1,7 @@
-# GENESIS
+# AXEL-RC
 
 WIKI PROJECT (google site)  
 (todo)
-
-![logo](https://github.com/regnou/app-dotfile/blob/main/i/energy.webp)
-
-@@@
-@@@ CONTACT - Axel REGNOULT
-@@@
 
 `RESUME`
 
@@ -16,6 +10,8 @@ WIKI PROJECT (google site)
 `COMPANY`
 
 > http://www.web-agency.app
+
+![logo](https://github.com/regnou/app-dotfile/blob/main/i/energy.webp)
 
 # 1) README
 
@@ -39,11 +35,9 @@ Directories structure:
 - 3-SETUP > scripts to bootstrap a fresh install on MAC
 - lib > libraries to load (TODO: it s missing a package manager for this project)
 
-🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇
-🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇
-🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇🐇
+# 3) TIPS
 
-# NVM
+## NVM
 
 - doc : https://github.com/creationix/nvm
 
@@ -64,7 +58,7 @@ nvm ls
 - pour se mettre a jour sur une nouvelle version ?
   `nvm ls-remote`
 
-# NPM
+## NPM
 
 ```bash
 --save --save-exact
@@ -134,7 +128,7 @@ npm ls --parseable
 npm ls --parseable|sed 's/._\/\(._\)/\1/g'|sort|uniq|wc -l
 ```
 
-# YARN
+## YARN
 
 - GLOBAL INSTALL
 
