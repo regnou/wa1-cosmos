@@ -2,7 +2,7 @@
 
 ## [chap 1 - COSMOS: les supers pouvoir TERM/SHELL/DEV]
 
-![logo](https://github.com/regnou/app-dotfile/blob/main/i/energy.webp)
+![logo](https://github.com/regnou/app-dotfile/blob/main/i/cosmos.webp)
 
 `RESUME`
 
