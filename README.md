@@ -1,7 +1,4 @@
-# AXEL-RC
-
-WIKI PROJECT (google site)  
-(todo)
+# AXEL-RC [chap 1 - le Cosmos]
 
 `RESUME`
 
