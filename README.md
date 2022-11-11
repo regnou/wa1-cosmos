@@ -1,5 +1,7 @@
 # AXEL-RC [chap 1 - le Cosmos]
 
+![logo](https://github.com/regnou/app-dotfile/blob/main/i/energy.webp)
+
 `RESUME`
 
 > https://cv-regnoult-axel.web.app
@@ -7,8 +9,6 @@
 `COMPANY`
 
 > http://www.web-agency.app
-
-![logo](https://github.com/regnou/app-dotfile/blob/main/i/energy.webp)
 
 # 1) README
 
