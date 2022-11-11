@@ -1,6 +1,6 @@
-# AXEL-RC
+# WEB-AGENCY -- DOTFILES
 
-## [chap 1 - le Cosmos]
+## [chap 1 - COSMOS: les supers pouvoir TERM/SHELL/DEV]
 
 ![logo](https://github.com/regnou/app-dotfile/blob/main/i/energy.webp)
 
