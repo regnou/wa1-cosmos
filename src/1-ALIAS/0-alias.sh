@@ -13,6 +13,8 @@ alias rc='codi $AXELRC'
 # by-project
 . "$AXELRC/1-ALIAS/project/alias-project.sh"
 . "$AXELRC/1-ALIAS/project/tinax/alias-scraper.sh"
+. "$AXELRC/1-ALIAS/project/web-agency/alias-genesis.sh"
+
 # path folders
 alias PP='echo $PATH | tr ":" "\n" | sort -r --ignore-case  | fzf'
 # echo $PATH | tr ':' '\n' Z

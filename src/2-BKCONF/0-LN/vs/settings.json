@@ -2022,7 +2022,8 @@
   "highlightwords.box": {
     "light": false,
     "dark": false
-  }
+  },
+  "window.zoomLevel": 1
 
   // END
   // ---
