@@ -1,14 +1,14 @@
+### WIKI PROJECT (google site)
+
+https://sites.google.com/view/web-agency/cosmos
+
 # @WEB-AGENCY
 
 # DEVTOOL / COSMOS
 
-## [chap 1 ]
+## [ chap 1 ]
 
 ## COSMOS: les supers pouvoir TERM/SHELL/DEV] via (DOTFILES+BKCONF+ALIAS)
-
-### WIKI PROJECT (google site)
-
-https://sites.google.com/view/web-agency/cosmos
 
 ![logo](https://github.com/regnou/app-dotfile/blob/main/i/cosmos.webp)
 
