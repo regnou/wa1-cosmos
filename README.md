@@ -6,11 +6,11 @@ https://sites.google.com/view/web-agency/cosmos
 
 # DEVTOOL / COSMOS
 
+![logo](https://github.com/regnou/app-dotfile/blob/main/i/cosmos.webp)
+
 ## [ chap 1 ]
 
 ## COSMOS: les supers pouvoir TERM/SHELL/DEV] via (DOTFILES+BKCONF+ALIAS)
-
-![logo](https://github.com/regnou/app-dotfile/blob/main/i/cosmos.webp)
 
 `RESUME`
 
