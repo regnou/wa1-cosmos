@@ -2,7 +2,9 @@
 
 # DEVTOOL / COSMOS
 
-## [chap 1 - COSMOS: les supers pouvoir TERM/SHELL/DEV] via (DOTFILES+BKCONF+ALIAS)
+## [chap 1 ]
+
+## COSMOS: les supers pouvoir TERM/SHELL/DEV] via (DOTFILES+BKCONF+ALIAS)
 
 ### WIKI PROJECT (google site)
 
