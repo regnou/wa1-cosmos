@@ -4,7 +4,7 @@ https://sites.google.com/view/web-agency/cosmos
 
 # WWW.WEB-AGENCY.APP
 
-# DEVTOOL / COSMOS
+## DEVTOOL / COSMOS
 
 ![logo](https://github.com/regnou/app-dotfile/blob/main/i/cosmos.webp)
 
