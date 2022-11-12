@@ -9,10 +9,10 @@
 # %%%
 # %%%  COMMON-IMPORTS ~
 # %%%
-# shellcheck source=/Users/yo/0HOME/0WEBAGENCY/0GH/AXELRC/src/1-ALIAS/commonTermBoost/alias-exports.sh
-. ~/"0HOME/0WEBAGENCY/0GH/AXELRC/src/1-ALIAS/commonTermBoost/alias-exports.sh"
-# shellcheck source=/Users/yo/0HOME/0WEBAGENCY/0GH/AXELRC/src/1-ALIAS/commonTermBoost/alias-layout1--header.sh
-. "$AXELRC/1-ALIAS/commonTermBoost/alias-layout1--header.sh"
+# shellcheck source=/Users/yo/0HOME/0WEBAGENCY/0GH/chap1-cosmos/src/1-ALIAS/commonShellBoost/alias-exports.sh
+. ~/"0HOME/0WEBAGENCY/0GH/chap1-cosmos/src/1-ALIAS/commonShellBoost/alias-exports.sh"
+# shellcheck source=/Users/yo/0HOME/0WEBAGENCY/0GH/chap1-cosmos/src/1-ALIAS/commonShellBoost/alias-layout1--header.sh
+. "$AXELRC/1-ALIAS/commonShellBoost/alias-layout1--header.sh"
 
 # %%%
 # %%% SETUP ZSH
@@ -100,7 +100,7 @@ pathadd $PNPM_HOME
 # %%%
 # %%% COMMON TERM BOOST ~
 # %%%
-. "$AXELRC/1-ALIAS/commonTermBoost/alias-layout2--body.sh"
+. "$AXELRC/1-ALIAS/commonShellBoost/alias-layout2--body.sh"
 
 # %%%
 # %%%
@@ -199,7 +199,7 @@ zstyle ':completion:*:exa' sort false
 # %%%
 # %%% TERM BOOST
 # %%%
-. "$AXELRC/1-ALIAS/commonTermBoost/alias-layout3--footer.sh"
+. "$AXELRC/1-ALIAS/commonShellBoost/alias-layout3--footer.sh"
 
 # @the end of .rc
 # --- fast-move
