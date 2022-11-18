@@ -23,7 +23,7 @@
 # Copy over or symlink .gitconfig. Example:
 # ln -s ~/dev/dotfiles/.gitconfig ~/.gitconfig
 
-. "$AXELRC/1-ALIAS/tec/alias-git--bouchon.sh"
+. "$AXELRC/1-ALIAS/2-tec/alias-git--bouchon.sh"
 
 # -e "added by us:"
 # MERGE HELP

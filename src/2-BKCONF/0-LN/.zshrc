@@ -6,13 +6,12 @@
 # echo "🌳 > [start] $SHELL >> [node $(node -v)] 🌳"
 # echo "🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳"
 
-# %%%
-# %%%  COMMON-IMPORTS ~
-# %%%
-# shellcheck source=/Users/yo/0HOME/0WEBAGENCY/0GH/chap1-cosmos/src/1-ALIAS/commonShellBoost/alias-exports.sh
-. ~/"0HOME/0WEBAGENCY/0GH/chap1-cosmos/src/1-ALIAS/commonShellBoost/alias-exports.sh"
-# shellcheck source=/Users/yo/0HOME/0WEBAGENCY/0GH/chap1-cosmos/src/1-ALIAS/commonShellBoost/alias-layout1--header.sh
-. "$AXELRC/1-ALIAS/commonShellBoost/alias-layout1--header.sh"
+# $$$
+# $$$  SHELL-BOOST
+# $$$
+
+. ~/"0HOME/0WEBAGENCY/0GH/chap1-cosmos/src/1-ALIAS/0-shellBoost/0-exports.sh"
+. "$AXELRC/1-ALIAS/0-shellBoost/1-header.sh"
 
 # %%%
 # %%% SETUP ZSH
@@ -97,10 +96,10 @@ if [ -f '~/0HOME/1DL/zINSTALL/google-cloud-sdk/completion.zsh.inc' ]; then . '~/
 export PNPM_HOME="/Users/yo/Library/pnpm"
 pathadd $PNPM_HOME
 
-# %%%
-# %%% COMMON TERM BOOST ~
-# %%%
-. "$AXELRC/1-ALIAS/commonShellBoost/alias-layout2--body.sh"
+# $$$
+# $$$ SHELL BOOST ~
+# $$$
+. "$AXELRC/1-ALIAS/0-shellBoost/2-body.sh"
 
 # %%%
 # %%%
@@ -196,10 +195,10 @@ zstyle ":completion:*:git-checkout:*" sort false
 zstyle ':completion:*:exa' file-sort modification
 zstyle ':completion:*:exa' sort false
 
-# %%%
-# %%% TERM BOOST
-# %%%
-. "$AXELRC/1-ALIAS/commonShellBoost/alias-layout3--footer.sh"
+# $$$
+# $$$ SHELL BOOST ~
+# $$$
+. "$AXELRC/1-ALIAS/0-shellBoost/3-footer.sh"
 
 # @the end of .rc
 # --- fast-move

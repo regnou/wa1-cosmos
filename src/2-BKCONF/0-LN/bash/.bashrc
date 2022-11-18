@@ -8,12 +8,12 @@ echo "🌳 > [start] $SHELL >> [node $(node -v)] 🌳"
 # %%%
 # %%% EXPORTs
 # %%%
-. ~/"AXELRC/commonShellBoost/alias-exports.sh"
+. ~/"AXELRC/shellBoost/alias-exports.sh"
 
 # %%% TERM BOOST
-# shellcheck source=/Users/yo/AXELRC/1-ALIAS/commonShellBoost/alias-layout1--header.sh
-. "$AXELRC/commonShellBoost/alias-layout1--header.sh"
-. "$AXELRC/commonShellBoost/alias-layout2--body.sh"
+# shellcheck source=/Users/yo/AXELRC/1-ALIAS/0-shellBoost/alias-layout1--header.sh
+. "$AXELRC/shellBoost/alias-layout1--header.sh"
+. "$AXELRC/shellBoost/alias-layout2--body.sh"
 
 # %%% BASH FEATURES
 # FZF -- (it s a brew deps)
@@ -21,7 +21,7 @@ echo "🌳 > [start] $SHELL >> [node $(node -v)] 🌳"
 # load: https://github.com/junegunn/dotfiles
 
 # %%% TERM BOOST
-. "$AXELRC/commonShellBoost/alias-layout3--footer.sh"
+. "$AXELRC/shellBoost/alias-layout3--footer.sh"
 
 # @the end of .rc
 # %%%
