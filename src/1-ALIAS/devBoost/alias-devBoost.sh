@@ -2,23 +2,11 @@
 #@@@
 #@@@ THIS BOOST YOUR DEVELOPER SUPERPOWERS
 #@@@
-
 alias codi="code"
 alias rc='codi $AXELRC'
-
+# secure zip
 # zip -er FILENAME.zip
 
-# vs-code
-# export codi="$(code-insiders)"
-# alias codi="code-insiders"
-
-# $$$
-# $$$
-# $$$
-# PROJECT_CURRENT="$HOME/0HOME/0GARAGE/APP_blog"
-# $$$
-# $$$
-# $$$
 # %%%
 # %%% DB
 # %%%

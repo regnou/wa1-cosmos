@@ -3,13 +3,8 @@
 #@@@ SCRAPPER
 #@@@
 
-# $$$
-# $$$ TINAX
-# $$$
 PROJECT_TINAX="$HOME/0HOME/0GARAGE/6-APP_TINAX"
-# $$$
-# $$$
-# $$$
+
 # $$$ CRON (mail ou mutt)
 alias cronn='crontab $PROJECT_TINAX/scrap/cron/cronjobs.crontab'
 alias cronl="crontab -l"

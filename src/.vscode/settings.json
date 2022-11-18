@@ -1,0 +1,77 @@
+{
+  // €€€ FILES
+  "files.exclude": {
+    // --- ok GLOBAL
+    // "**/node_modules": true,
+    "firestore-debug.log": true,
+    "firebase-debug.log": true,
+    "pnpm-lock.yaml": true,
+    "ui-debug.log": true,
+    // $$$
+    // "README.md": true,
+    // "package.json": true,
+    // "**/DROP": true,
+    // "z-CHANGELOG.md": true,
+    // "z-.nvmrc--no": true,
+    // "z-.editorconfig--NO": true,
+    // "z-.gitattributes--NO": true,
+    // "z-LICENSE": true,
+    "package-lock.json": true,
+    "jsconfig.json": true,
+    ".firebase": true,
+    ".npmrc": true,
+    ".gitignore": true,
+    ".eslintignore": true,
+    ".prettierignore": true,
+    ".eslintrc.cjs": true,
+    ".prettierrc": true,
+    "vite.config.ts": true,
+    "tsconfig.json": true,
+    "tailwind.config.cjs": true,
+    "svelte.config.js": true,
+    "root.code-workspace": true,
+    "postcss.config.cjs": true,
+    "playwright.config.ts": true,
+    "playwright-ct.config.ts": true,
+    // "JSON_ENTRIES.js": true,
+    ".svelte-kit": true
+    // ".scrapper-kit": true
+  },
+  // €€€ SEARCH
+  "search.exclude": {
+    "**/0-DROP": true,
+    ".svelte-kit": true,
+    ".scrapper-kit": true
+    // "/___ENV__": true,
+    // "/static": true,
+    // "/public": true,
+  },
+  // %%%
+  // "workbench.colorCustomizations": {
+  //     "tab.activeBackground": "#00aeff",
+  //     "tab.activeBorderTop": "#FFF",
+  //     "tab.activeForeground": "#FFF",
+  //     "tab.inactiveBackground": "#777777",
+  //     "tab.inactiveForeground": "#000000"
+  // }
+  "peacock.color": "#6fb",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#99ffd2",
+    "activityBar.background": "#99ffd2",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#c780ff",
+    "activityBarBadge.foreground": "#15202b",
+    "commandCenter.border": "#15202b99",
+    "sash.hoverBorder": "#99ffd2",
+    "statusBar.background": "#66ffbb",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#33ffa4",
+    "statusBarItem.remoteBackground": "#66ffbb",
+    "statusBarItem.remoteForeground": "#15202b",
+    "titleBar.activeBackground": "#66ffbb",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#66ffbb99",
+    "titleBar.inactiveForeground": "#15202b99"
+  }
+}

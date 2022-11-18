@@ -12,8 +12,9 @@
 . "$AXELRC/1-ALIAS/tec/alias-vscode.sh"
 
 # by-CLI (projects)
+. "$AXELRC/1-ALIAS/CLI/alias-CLI-ms-scraper.sh"
 . "$AXELRC/1-ALIAS/CLI/alias-CLI-tinax-scraper.sh"
-. "$AXELRC/1-ALIAS/CLI/alias-CLI-genesis.sh"
+# . "$AXELRC/1-ALIAS/CLI/alias-CLI-genesis.sh"
 
 # by-Boost
 . "$AXELRC/1-ALIAS/devBoost/alias-devBoost.sh"
