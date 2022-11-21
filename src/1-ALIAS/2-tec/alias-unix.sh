@@ -3,6 +3,27 @@
 #@@@ unix
 #@@@
 
+# Dir
+alias cdcd='cd ..'
+alias dll='cd ~/0HOME/1DL'
+
+# Unix
+alias sbb='. $HOME/.zshrc'
+alias cat='bat '
+alias mann='tldr'
+alias l='exa' # https://github.com/ogham/exa
+alias ml='exa -Flah --git --tree --level=1 --group-directories-first'
+alias ls='ml | h -n "src|public|package.json" "rollup.config.js|tailwind.config.js|tsconfig.json" "firebase.json|.firebaserc|firebase" ".gitignore|.git" | h "\.svelte" "\.ts" "\.js" "\.json" "\.sh"  "\.css" "\.html" "build"'
+# alias ll='exa -Flah --git --tree --level=6 --group-directories-first'
+alias ll='exa -Flah --git --tree --level=1 --group-directories-first'
+alias la='exa -Flh --git --tree --level=1 --group-directories-first'
+alias lla='exa -Flh --git --tree --level=6 --group-directories-first'
+
+# Danger
+alias rmf='rm -rf'
+
+#@@@
+
 # clear history
 # history -c (bash)
 # history -p (zsh)
@@ -30,25 +51,6 @@ alias killl='kill-port --port 8000,9099,5001,8080,5033,9000,5000,8085,9199,4000,
 # Npm
 alias Z='| fzf'
 # npm search react Z
-
-# Dir
-alias cdcd='cd ..'
-alias dll='cd ~/0HOME/1DL'
-
-# Unix
-alias sbb='. $HOME/.zshrc'
-alias cat='bat '
-alias mann='tldr'
-alias l='exa' # https://github.com/ogham/exa
-alias ml='exa -Flah --git --tree --level=1 --group-directories-first'
-alias ls='ml | h -n "src|public|package.json" "rollup.config.js|tailwind.config.js|tsconfig.json" "firebase.json|.firebaserc|firebase" ".gitignore|.git" | h "\.svelte" "\.ts" "\.js" "\.json" "\.sh"  "\.css" "\.html" "build"'
-# alias ll='exa -Flah --git --tree --level=6 --group-directories-first'
-alias ll='exa -Flah --git --tree --level=1 --group-directories-first'
-alias la='exa -Flh --git --tree --level=1 --group-directories-first'
-alias lla='exa -Flh --git --tree --level=6 --group-directories-first'
-
-# Danger
-alias rmf='rm -rf'
 
 # FZF
 # npm search

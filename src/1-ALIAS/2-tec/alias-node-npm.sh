@@ -51,7 +51,6 @@ alias nrt="npm run test"
 alias nre="npm run emu"
 
 alias nrstart="npm run start"
-alias nrss='nrs | h   "\.svelte" "~/0HOME/GARAGE/INTRALINK/src/|/src/routes/|/src/lib/|/src/stores/" "\[0\]" "\[1\]" ".*:.*:.*" "A11y"'
 alias nrdeb="npm run debug"
 alias nrdep='npm run deploy'
 alias nrdev='npm run dev'

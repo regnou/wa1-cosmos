@@ -19,8 +19,3 @@
 . "$AXELRC/1-ALIAS/3-cli/alias-CLI-tinax-scraper.sh"
 export GENESIS="/Users/yo/0HOME/0WEBAGENCY/0GH/chap2-genesis"
 alias sbg=". $GENESIS/src/2-alfred-scripts/alias-cli.sh"
-
-# path folders
-alias PP='echo $PATH | tr ":" "\n" | sort -r --ignore-case  | fzf'
-# echo $PATH | tr ':' '\n' Z
-#  $$$ node -p "console.log(process.env.PATH.split(':').join('\n'))"
