@@ -1,4 +1,6 @@
-# chap1: COSMOS - les supers pouvoir TERM/SHELL/DEV] via (DOTFILES+BKCONF+ALIAS)
+# chap1: COSMOS
+
+# "Les supers pouvoirs TERM/SHELL/DEV] via (DOTFILES+BKCONF+ALIAS)"
 
 `COMPANY`
 
