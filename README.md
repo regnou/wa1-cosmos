@@ -10,11 +10,11 @@
 
 ![logo](https://github.com/regnou/app-dotfile/blob/main/i/cosmos.webp)
 
+## chap1: COSMOS - les supers pouvoir TERM/SHELL/DEV] via (DOTFILES+BKCONF+ALIAS)
+
 ### WIKI PROJECT (google site)
 
 https://sites.google.com/view/web-agency/cosmos
-
-## chap1: COSMOS - les supers pouvoir TERM/SHELL/DEV] via (DOTFILES+BKCONF+ALIAS)
 
 ### 1) README
 
