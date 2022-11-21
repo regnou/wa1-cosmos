@@ -1,16 +1,4 @@
-### WIKI PROJECT (google site)
-
-https://sites.google.com/view/web-agency/cosmos
-
-![logo](https://github.com/regnou/app-dotfile/blob/main/i/cosmos.webp)
-
 # WWW.WEB-AGENCY.APP
-
-## DEVTOOL / COSMOS
-
-### [ chap 1 ]
-
-### COSMOS: les supers pouvoir TERM/SHELL/DEV] via (DOTFILES+BKCONF+ALIAS)
 
 `RESUME`
 
@@ -20,7 +8,15 @@ https://sites.google.com/view/web-agency/cosmos
 
 > http://www.web-agency.app
 
-# 1) README
+![logo](https://github.com/regnou/app-dotfile/blob/main/i/cosmos.webp)
+
+### WIKI PROJECT (google site)
+
+https://sites.google.com/view/web-agency/cosmos
+
+## chap1: COSMOS - les supers pouvoir TERM/SHELL/DEV] via (DOTFILES+BKCONF+ALIAS)
+
+### 1) README
 
 > CONFIGURATION FOR MAC DEVELOPERS  
 > This is a starter for pre-configurated MAC-dotfiles and ZSH.
@@ -33,7 +29,7 @@ Features:
 4. Backup configurations files (VCcode, ITerm, Fonts)
 5. Sync your home's dotfiles with ln
 
-# 2) INSTALL
+### 2) INSTALL
 
 Directories structure:
 
@@ -42,7 +38,7 @@ Directories structure:
 - 3-SETUP > scripts to bootstrap a fresh install on MAC
 - lib > libraries to load (TODO: it s missing a package manager for this project)
 
-# 3) TIPS
+### 3) TIPS
 
 ## NVM
 
@@ -65,7 +61,7 @@ nvm ls
 - pour se mettre a jour sur une nouvelle version ?
   `nvm ls-remote`
 
-## NPM
+### NPM
 
 ```bash
 --save --save-exact
@@ -135,7 +131,7 @@ npm ls --parseable
 npm ls --parseable|sed 's/._\/\(._\)/\1/g'|sort|uniq|wc -l
 ```
 
-## YARN
+#### YARN
 
 - GLOBAL INSTALL
 
