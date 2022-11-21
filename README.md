@@ -1,6 +1,6 @@
 # chap1: COSMOS
 
-# "Les supers pouvoirs TERM/SHELL/DEV] via (DOTFILES+BKCONF+ALIAS)"
+# "Boost tes supers pouvoirs de DEV/TERM/SHELL -> via DOTFILES+BKCONF+ALIAS"
 
 `COMPANY`
 
