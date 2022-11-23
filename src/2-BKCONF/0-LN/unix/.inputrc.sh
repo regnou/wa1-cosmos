@@ -1,7 +1,7 @@
 #!/bin/sh
-###
-### [ GLOBAL 23 dec 2021] [ INPUT-RC ]
-###
+#
+# [ GLOBAL 23 dec 2021] [ INPUT-RC ]
+#
 
 # Make Tab autocomplete regardless of filename case
 set completion-ignore-case on

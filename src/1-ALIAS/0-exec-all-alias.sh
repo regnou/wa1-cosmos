@@ -17,5 +17,5 @@
 # by-cli
 . "$AXELRC/1-ALIAS/3-cli/alias-CLI-ms-scraper.sh"
 . "$AXELRC/1-ALIAS/3-cli/alias-CLI-tinax-scraper.sh"
-export GENESIS="/Users/yo/0HOME/0WEBAGENCY/0GH/chap2-genesis"
+export GENESIS="/Users/yo/0HOME/0GH/chap2-genesis"
 alias sbg=". $GENESIS/src/2-alfred-scripts/alias-cli.sh"

@@ -1,5 +1,5 @@
 #!/bin/bash
-# €€€
+# €€€ 22 nov
 # €€€ BASH RC -- 11 nov
 # €€€
 # echo "🌳 > bashrc [start]"

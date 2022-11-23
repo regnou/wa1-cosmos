@@ -1,6 +1,6 @@
 #!/bin/sh
 # €€€
-# €€€ ZSH-RC -- 11 nov
+# €€€ ZSH-RC -- 22 nov
 # €€€
 # echo "🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳🌳"
 # echo "🌳 > [start] $SHELL >> [node $(node -v)] 🌳"
@@ -10,7 +10,7 @@
 # $$$  SHELL-BOOST
 # $$$
 
-. ~/"0HOME/0WEBAGENCY/0GH/chap1-cosmos/src/1-ALIAS/0-shellBoost/0-exports.sh"
+. ~/"0HOME/0GH/chap1-cosmos/src/1-ALIAS/0-shellBoost/0-exports.sh"
 . "$AXELRC/1-ALIAS/0-shellBoost/1-header.sh"
 
 # %%%

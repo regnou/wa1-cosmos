@@ -1,22 +1,28 @@
-# %%%
+# %%% 22 nov
 # %%% [ GIT-CONFIG ] 29 juin 2022 - https://git-scm.com/docs/git-config#_configuration_file
 # %%%
+
 [user]  
     name = Axel R.
     email = regnou.a@gmail.com
+
 [core] # if dont want a gitignore GLOBAL => comment below
     excludesfile = /Users/yo/.gitignore_global
     pager = delta
     editor = nano
+
 [interactive]
     diffFilter = delta --color-only
+
 [delta]
     features = side-by-side line-numbers decorations
     whitespace-error-style = 22 reverse
+
 [delta "decorations"]
     commit-decoration-style = bold yellow box ul
     file-style = bold yellow ul
     file-decoration-style = none
+
 [alias]
 # %%% logs
 # "log pretty" – dont worry too much about the formatting
@@ -67,8 +73,10 @@
     dflc = diff HEAD^ HEAD
 # "diff names" – show diff only with file names
     dfnames = diff –name-only
+
 [init]
     defaultBranch = main
+
 [filter "lfs"]
     required = true
     clean = git-lfs clean -- %f
