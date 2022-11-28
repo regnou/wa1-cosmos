@@ -1,0 +1,352 @@
+[
+  {
+    "settings": {
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
+      "windowPosition": {},
+      "show-badge": true,
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeStyleName": false,
+      "newStyleAsUsercss": false,
+      "styleViaXhr": false,
+      "patchCsp": false,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "system",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.breadcrumbs": true,
+      "popup.breadcrumbs.usePath": false,
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "u",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": true,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.newUI": true,
+      "manage.newUI.favicons": false,
+      "manage.newUI.faviconsGray": true,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": false,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "default",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true,
+        "indent_mozdoc": true
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "#8c8cc0",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "sync.enabled": "none",
+      "iconset": -1,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
+      "popupWidth": 246,
+      "updateInterval": 24
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "enabled": true,
+    "installDate": 1658538569304,
+    "name": "tinder.com",
+    "sections": [
+      {
+        "code": ".CenterAlign.H\\(100\\%\\).Fxd\\(c\\) {\n    background: black;\n}\n\n.D\\(f\\).Fx\\(\\$flx1\\).Fxd\\(c\\).H\\(100\\%\\).Z\\(0\\).Bgc\\(\\#fff\\) {\n    background: black;\n}\ndiv#SC\\.chat_62574ff0751694010065331162d8dede55229101000cf26f {\n    background: black;\n}\n.Bgc\\(\\#fff\\).Fxg\\(1\\).Z\\(1\\).Pb\\(16px\\)--ml.Pb\\(60px\\) {\n    background: yellowgreen;\n}\ndiv#t1273415981 {\n    background: dodgerblue;\n}\n.D\\(f\\).Ai\\(c\\).Jc\\(sb\\).Py\\(12px\\)--m.Py\\(16px\\)--l.Cf--s.BdB.Bdc\\(\\$c-divider\\).Ta\\(c\\).W\\(100\\%\\).Bgc\\(\\#fff\\).Px\\(24px\\)--ml.Bxsh\\(\\$bxsh-4-way-spread\\) {\n    background: burlywood;\n}\ndiv#SC\\.chat_5dc4b275f2f2170100d1742c60b0ce401feefd01003ca689 {\n    background: green;\n}\n.chat.Pos\\(a\\)--s.Bgc\\(\\#fff\\).Pos\\(r\\).T\\(0\\).Expand.D\\(f\\).Fx\\(\\$flx1\\).Fxd\\(c\\) {\n    background: black;\n}\n.chat{\n    background: black;\n}\ntime.Ta\\(c\\).Fz\\(\\$2xs\\).C\\(\\$c-secondary\\).Py\\(4px\\).D\\(b\\) {\n    color: black !important;\n    font-size: 25px;\n}\n.Fz\\(\\$ms\\).C\\(\\$c-secondary\\).Px\\(16px\\).Fw\\(\\$medium\\).C\\(\\$c-ds-text-brand-normal\\)\\:h--m.Trsdu\\(\\$normal\\).Trsp\\(\\$color\\).Ta\\(start\\)--ml.C\\(\\$c-secondary\\) {\n    background: black;\n    color: white;\n    font-size: 29px;\n}\nhtml, body{\n    background: black !important;\n}\n.loadingScreen.CenterAlign.StretchedBox\n{\n    background: black !important;\n}\ndiv#challenge {\n    background: black;\n}",
+        "domains": ["tinder.com"]
+      }
+    ],
+    "updateDate": 1660764566203,
+    "_id": "0bd2feb4-2943-413b-b9d9-be067afc9da3",
+    "_rev": 1660764566203,
+    "id": 1
+  },
+  {
+    "enabled": true,
+    "installDate": 1658540144095,
+    "name": "contacts.google.com",
+    "sections": [
+      {
+        "code": "c-wiz.zQTmif.SSPGKf.eejsDc {\n    background: cadetblue;\n}\n.gb_Nc {\n    background: burlywood;\n}\n.gb_Ld.gb_2d.gb_Rd {\n    background: black;\n}\n.as9eHe {\n    background: cadetblue;\n}\n",
+        "domains": ["contacts.google.com"]
+      }
+    ],
+    "updateDate": 1658944431717,
+    "_id": "83601fc4-9e69-46e7-8f04-2cffc3e310bf",
+    "_rev": 1658944431717,
+    "id": 2
+  },
+  {
+    "enabled": true,
+    "installDate": 1658541503555,
+    "name": "drive.google.com",
+    "sections": [
+      {
+        "code": "c-wiz.Y9nbBe.i6Fqyc {\n    background: midnightblue;\n}\n.a-da-ub-ce {\n    background: black;\n}\n.gb_Ld.gb_2d.gb_Rd {\n    background: black;\n}\n.a-s-tb-sc-Ja.a-s-tb-Kg.a-l-Ba.a-s-tb-sc-Ja-J {\n    background: bisque;\n}\nhtml, body{background: black !important}\ndiv#\\34 c7ug7\\:3eq {\n    background: black !important;\n}\ndiv[main]{\n        background: black !important;\n}",
+        "domains": ["drive.google.com"]
+      }
+    ],
+    "updateDate": 1659489393800,
+    "_id": "ef9f343c-8879-45cb-bdcb-ef14533b6bba",
+    "_rev": 1668213528624,
+    "id": 3
+  },
+  {
+    "enabled": false,
+    "installDate": 1658590886926,
+    "name": "www.instagram.com",
+    "sections": [
+      {
+        "code": "main._a993._a995 {\n    background: black;\n}\n._acum {\n    background: #3da590 !important;\n}\n._aa5b {\n    background: black;\n}\n._abyk {\n    background: black !important;\n}\nhtml, body{\n        background: black !important;\n}\n.qF0y9.Igw0E.rBNOH.YBx95.acqo5.vwCYk {\n    background: #004d00;\n}\n._lz6s {\n    background: #8c7d9b;\n}\n.pV7Qt.DPiy6.qF0y9.Igw0E.IwRSH.eGOV_.acqo5._4EzTm.qhGB0.ZUqME {\n    background: #024770;\n}\n._aam1._aam2._aam3._aam5 {\n    background: #027102;\n}",
+        "domains": ["www.instagram.com"]
+      }
+    ],
+    "updateDate": 1660230203656,
+    "_id": "91472dbb-b285-44b5-b82c-9ad34336a802",
+    "_rev": 1663000012358,
+    "id": 4
+  },
+  {
+    "enabled": true,
+    "installDate": 1658684258365,
+    "name": "superuser.com",
+    "sections": [
+      {
+        "code": "/* ################# */\n/* FORM */\n/* ################# */\nform#post-form {\n    display: none;\n}\nheader.s-topbar.ps-fixed.t0.l0.js-top-bar {\n    display: none;\n}\n/* ################# */\n/* ################# */\n/* ################# */\n/* ################# */\nfooter#footer {\n    display: none;\n}\n.js-vote-count.flex--item.d-flex.fd-column.ai-center.fc-black-500.fs-title {\n    background: #ffcc00;\n}\n.answers-subheader.d-flex.ai-center.mb8 {\n    background: #ff9500;\n    color: white;\n}\n.answercell{\n    background: #80bc23fc;\n}\nbody {\n    background: #5e9705;\n    color:  black !important;\n}\n.inner-content.clearfix {\n    background: #ceaf71;\n}\ndiv#content {\n    background: #85ab8d;\n}\n.postcell {\n    background: #65bab1;\n}\n.answer .js-accepted-answer-indicator{\n    background: black;\n    \n}\na{\n    color: blue;\n}\na[role='button']{\n    color: black;\n    text-transform: uppercase;\n    border: 1px solid blue;\n}\na:hover{\n        color: white;\n    background:  blue;\n    text-decoration:  none;\n}\na[role='button']:hover{\n    color: white;\n    background:  blue;\n}\n.post-signature {\n    background: transparent;\n        border-radius: 100px;\n;\n\n}\n.post-signature a{\n    color: red;\n    text-decoration: underline;\n\n}\n.post-signature a:hover{\n    background: red;\n    color: white\n\n}\ndiv#sidebar {\n    display: none;\n}\ndiv#left-sidebar {\n    display: none;\n}\n.js-vote-count.flex--item.d-flex.fd-column.ai-center.fc-black-500.fs-title {\n    color: black !important;\n}\nh1.fs-headline1.ow-break-word.mb8.flex--item.fl1 {\n    background: #111018;\n    padding: 20px;\n}\n.d-flex.gs8.s-anchors.s-anchors__muted.fw-wrap {\n    display: none !important;\n}\nblockquote {\n    background: gray;\n        color: black !important;\n}\ncode {\n    background: #54c609;\n}\n.comment-body.js-comment-edit-hide {\n    background: #419032;\n}\nh1.fs-headline1.ow-break-word.mb8.flex--item.fl1 {\n    border-radius: 100px;\n    margin: 50px;\n}\nspan.fc-light.mr2 {\n    background: black;\n}\n.d-flex.fw-wrap.pb8.mb16.bb.bc-black-075 {\n    background: #007ae7;\n       padding: 30px;\n}\nbody.question-page.unified-theme.theme-dark.theme-highcontrast {\n    background: #025327;\n}\nh1.fs-headline1.ow-break-word.mb8.flex--item.fl1 {\n    text-align: center;\n    margin: 50px !important;\n\n}\n.user-gravatar32 {\n    width: 100px !important;\n    height: 100px !important;\n}\nimg.bar-sm {\n    width: 100px;\n    height: 100px;\n    border-radius: 63px !important;\n}\n\n.gravatar-wrapper-32 {\n    height: 100px;\n    width: 100px;\n}\n.flex--item.ws-nowrap.mb8 {\n    margin-left: 100px;\n    padding-bottom: 10px;\n}\n.user-action-time , span.relativetime-clean {\n    background: black;\n    padding: 2px !important;\n    outline: 1px solid red;\n    text-align: center;\n}\n.user-details {\n    background: black !important;\n}\na.question-hyperlink {\n    color: #bebebe !important;\n}\n.user-action-time {\n    background: yellow;\n    color: black;\n    font-weight: bold;\n}",
+        "domains": ["superuser.com", "stackoverflow.com", "stackexchange.com"]
+      }
+    ],
+    "updateDate": 1661365263236,
+    "_id": "38ab84b7-21d8-4e50-ba4a-e66db9fa2aea",
+    "_rev": 1663198877707,
+    "id": 5
+  },
+  {
+    "enabled": true,
+    "installDate": 1658695010165,
+    "name": "github.com",
+    "sections": [
+      {
+        "code": "td.d-block.comment-body.markdown-body.js-comment-body {\n    background: dimgray;\n    color: black;\n}\nspan.State.State--merged.State--small {\n    padding: 20px;\n    background: green;\n}\n.comment-reactions.js-reactions-container.js-reaction-buttons-container.social-reactions.reactions-container.has-reactions.flex-row-reverse.flex-justify-end.d-md-flex {\n    display: none !important;\n}\n.discussion-timeline-actions {\n    display: none;\n}\n.position-relative.d-flex.flex-items-center.pb-2.f6.color-fg-muted.border-top.color-border-muted.flex-column-reverse.flex-lg-row.flex-wrap.flex-lg-nowrap.mt-6.pt-6 {\n    display: none !important;\n}\na.team-mention.js-team-mention.notranslate {\n    background: black;\n    color: cornflowerblue;\n}\na{\n    background: black;\n}\npre.notranslate {\n    background: cornflowerblue;\n}\n\nspan.f1-light.color-fg-muted {\n    background: #00ff49;\n    color: black !important;\n    border-radius: 10px;\n    padding: 10px;\n}\nspan.State.State--merged {\n    padding: 30px;\n    outline: 5px solid red;\n    background: green;\n}\n.d-flex.flex-items-center.flex-justify-between.mt-2 {\n    background: #0e0a5b;\n}\nrelative-time.no-wrap {\n    color: red;\n    outline: 1px solid yellow;\n}\nh1.gh-header-title.mb-2.lh-condensed.f1.mr-0.flex-auto.wb-break-word {\n    background: #014100;\n}\n.TimelineItem::before {\n    background-color: red !important;\n}\n.mt-2.d-flex.flex-items-start.flex-column.flex-md-row {\n    background: #323232;\n}\nh3 {\n    background: darkgreen !important;\n    color: yellow  !important;\n    border:2px solid yellow;\n}\nh4 {\n    background: #475f19  !important;\n    color: white  !important;\n}\nh2 {\n    background: rebeccapurple;\n    outline: 3px solid #009eff;\n}\npre.notranslate {\n    background: darkmagenta;\n}\npre {\n    background: #00276c !important;\n}\ntd.d-block.color-fg-default.comment-body.markdown-body.js-comment-body {\n    background: #0b0b0b;\n}\nblockquote p{\n\n    color: yellowgreen;\n\n}\npre.notranslate.notranslate {\n    background: white !important;\n}",
+        "domains": ["github.com"]
+      }
+    ],
+    "updateDate": 1663354297163,
+    "_id": "7e082789-d51a-4ecd-920e-f5f98eb695e9",
+    "_rev": 1664483021837,
+    "id": 6
+  },
+  {
+    "enabled": false,
+    "installDate": 1658881143768,
+    "name": "www.npmjs.com",
+    "sections": [
+      {
+        "code": "main#main {\n    background: gray;\n}\ndiv#readme {\n    background: #f2bd45;\n}\n.fdbf4038.w-third-l.mt3.w-100.ph3.ph4-m.pv3.pv0-l {\n    display: none;\n}\n\n",
+        "domains": ["www.npmjs.com"]
+      }
+    ],
+    "updateDate": 1658881160400,
+    "_id": "d85a299b-ac21-43cb-9412-334a29655ede",
+    "_rev": 1668104261560,
+    "id": 7
+  },
+  {
+    "enabled": true,
+    "installDate": 1658944446455,
+    "name": "mail.google.com",
+    "sections": [
+      {
+        "code": ".V3.aam {\n    background: #027e93;\n}\n.gb_Ld.gb_2d.gb_Rd {\n    background: #024058;\n}\n.aic {\n    background: black;\n}\n.D.E.G-atb {\n    background: #1b79dc;\n}\n.nH.Wg.aAr {\n    background: cadetblue;\n}\ndiv#explosion_clipper_div {\n     background: black !important;   \n}\n.bsU {\n    background: black;\n    color: white;\n    padding: 3px;\n}",
+        "domains": ["mail.google.com"]
+      }
+    ],
+    "updateDate": 1660012954080,
+    "_id": "4d3b940c-8b56-43a8-ae2f-f9396b32f8f3",
+    "_rev": 1664235295517,
+    "id": 8
+  },
+  {
+    "enabled": true,
+    "installDate": 1659998627012,
+    "name": "firebase.google.com",
+    "sections": [
+      {
+        "code": "article.devsite-article {\n    background: #979797 !important;\n}\ndevsite-book-nav {\n    background: #add1ad;\n}\nmain.devsite-main-content {\n    background: #892222;\n}\n.devsite-top-logo-row {\n    background: black !important;\n}",
+        "domains": ["firebase.google.com"]
+      }
+    ],
+    "updateDate": 1659998763408,
+    "_id": "c1951cf7-25f8-483a-b114-416f10cf6893",
+    "_rev": 1659998763408,
+    "id": 9
+  },
+  {
+    "enabled": true,
+    "installDate": 1660007116502,
+    "name": "console.firebase.google.com",
+    "sections": [
+      {
+        "code": "page-content.p9e-main.p9e-no-data {\n    background: black;\n}\n.c5e-general-settings-page {\n    background: black;\n}\nsettings-general-page.ng-star-inserted {\n    background: #0e263d;\n}\n.c5e-sa-content {\n    background: #588104;\n}\nhtml, body{\n    background: black;\n}\n.cfc-section-nav-body.ng-star-inserted {\n    background: #5d9a02;\n}",
+        "domains": ["console.firebase.google.com"]
+      }
+    ],
+    "updateDate": 1660007534209,
+    "_id": "f6e25d13-62c0-4928-8035-8dfd29f75c92",
+    "_rev": 1660007534209,
+    "id": 10
+  },
+  {
+    "enabled": true,
+    "installDate": 1660007341287,
+    "name": "console.cloud.google.com",
+    "sections": [
+      {
+        "code": ".cfc-panel-body-scroll-content.ng-star-inserted {\n    background: #69b1a8;\n}\ndiv#_0rif_panelgoog_376989298 {\n    background: #a9b65d;\n}\nmat-toolbar.mat-toolbar.cfc-action-bar.md-menu-toolbar.cfc-legacy-toolbar-resize.mat-toolbar-single-row {\n    background: yellow !important;\n}",
+        "domains": ["console.cloud.google.com"]
+      }
+    ],
+    "updateDate": 1660766383717,
+    "_id": "60b8055b-2116-4cb8-99d6-09b2f0b50761",
+    "_rev": 1660766383717,
+    "id": 11
+  },
+  {
+    "enabled": true,
+    "installDate": 1660069258329,
+    "name": "code.visualstudio.com",
+    "sections": [
+      {
+        "code": "div#main-content {\n    background: darkgrey;\n}\nh2{\n         color: white;\n    background: #303065;\n}\nh1 {\n    background: #08d586;\n}\nh3{\n     color: white;\n    background: #d31717;\n}\nh4{\n    background: #c7bd2b;\n}\na {\n    background: wheat;\n}\n.widget {\n    display: none;\n}",
+        "domains": ["code.visualstudio.com"]
+      }
+    ],
+    "updateDate": 1661178273816,
+    "_id": "c686f16c-55db-4d26-b1e0-71c896b7ff6d",
+    "_rev": 1661178273816,
+    "id": 12
+  },
+  {
+    "enabled": false,
+    "installDate": 1660183964955,
+    "name": "accounts.google.com",
+    "sections": [
+      {
+        "code": ".VmOpGe {\n    background: black;\n}\n.xkfVF {\n    background: darkseagreen;\n}\n.devsite-nav-active {\n    background: #ffbc00 !important;\n}\n.iNstf {\n    background: burlywood;\n}",
+        "domains": ["accounts.google.com"]
+      }
+    ],
+    "updateDate": 1661435138498,
+    "_id": "c74bb60d-15ee-46f7-844f-c78cfeb08c79",
+    "_rev": 1668205035162,
+    "id": 13
+  },
+  {
+    "enabled": true,
+    "installDate": 1660184102616,
+    "name": "www.google.com",
+    "sections": [
+      {
+        "code": "html, body {\n    background: black !important;\n}",
+        "domains": ["www.google.com"]
+      }
+    ],
+    "updateDate": 1660184105574,
+    "_id": "55a5dbb4-bf21-49de-9ce4-535d4be30563",
+    "_rev": 1660184105574,
+    "id": 14
+  },
+  {
+    "enabled": true,
+    "installDate": 1660771236098,
+    "name": "developers.google.com",
+    "sections": [
+      {
+        "code": ".devsite-nav-active {\n    background: black !important;\n}\na{\n    background:green;\n    color:whitesmoke !important;\n}\na:hover{\n    background:yellow !important;\noutline: 2px solid black;\n    color:black !important;\n}\n",
+        "domains": ["developers.google.com"]
+      }
+    ],
+    "updateDate": 1660772726873,
+    "_id": "4597e184-50c3-463e-9887-4a4af867362f",
+    "_rev": 1660772726873,
+    "id": 15
+  },
+  {
+    "enabled": true,
+    "installDate": 1660934442427,
+    "name": "svelte.dev",
+    "sections": [
+      {
+        "code": ".active {\n    background: yellow;\n    color: black !important;\n}",
+        "domains": ["svelte.dev"]
+      }
+    ],
+    "updateDate": 1660934442427,
+    "_id": "a4ba5435-5ab6-43f4-8f4a-108df35bf139",
+    "_rev": 1660934442427,
+    "id": 16
+  },
+  {
+    "enabled": true,
+    "installDate": 1663161498811,
+    "name": "translate.google.com",
+    "sections": [
+      {
+        "code": "c-wiz.MOkH4e.BSw7K.iYelWb.yF6Zo {\n    background: cadetblue;\n}",
+        "domains": ["translate.google.com"]
+      }
+    ],
+    "updateDate": 1663161498811,
+    "_id": "11767a21-3307-4403-8962-4c36bbae6447",
+    "_rev": 1663161498811,
+    "id": 17
+  }
+]
