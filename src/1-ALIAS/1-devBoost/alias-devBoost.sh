@@ -16,6 +16,9 @@ alias PP='echo $PATH | tr ":" "\n" | sort -r --ignore-case  | fzf'
 # %%%
 # %%% COMMON DEV GLOBAL
 # %%%
+
+# git remote set-url origin https://github.com/regnou/wa1-cosmos.git
+
 #  $$$ node -p "console.log(process.env.PATH.split(':').join('\n'))"
 
 # publish package
