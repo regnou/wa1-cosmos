@@ -1,0 +1,215 @@
+// @@@
+// @@@ [VS-CODE-INSIDER--SETTINGS--AXEL-R] [24 juillet 2022] [Axel R]
+// @@@ ok
+// Place your key bindings in this file to override the defaults
+[
+  // ###
+  // ### DEBUG
+  // ###
+  // ### cmd+shift+; ==> quick fix
+  {
+    "key": "cmd+shift+u",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "import { $1 } from \"$lib/$2\" "
+    }
+  },
+
+  {
+    "key": "cmd+shift+enter",
+    "command": "workbench.action.debug.start"
+  },
+  {
+    "key": "cmd+alt+enter",
+    "command": "workbench.action.debug.restart",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "[IntlBackslash]",
+    "command": "workbench.action.debug.stepOver",
+    "when": "debugState == 'stopped'"
+  },
+  // go to next error
+  {
+    "key": "cmd+[IntlBackslash]",
+    "command": "editor.action.marker.next",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+[IntlBackslash]",
+    "command": "editor.action.marker.nextInFiles",
+    "when": "editorFocus"
+  },
+  // --- save
+  {
+    "key": "cmd+s",
+    "command": "workbench.action.files.saveAll"
+  },
+  // --- intellisense
+  {
+    "key": "shift+space",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+  },
+  // --- navigation
+  {
+    "key": "ctrl+cmd+left",
+    "command": "workbench.action.navigateBack"
+  },
+  {
+    "key": "ctrl+cmd+right",
+    "command": "workbench.action.navigateForward"
+  },
+  // ###
+  // ### SNIPPETS - axel (vscode)
+  // ###
+  {
+    "key": "cmd+shift+i",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "{ \n \"text\": \"$1\", \n \"isWholeLine\": false, \n \"color\": \"$2\",\n \"backgroundColor\": \"transparent\", \n \"overviewRulerColor\": \"transparent\" \n },"
+    }
+  },
+  {
+    "key": "cmd+shift+l",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "console.log($1);" // -1
+    }
+  },
+  {
+    "key": "cmd+shift+s",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "const $1 = ($2) => {\n\t$3\n} "
+    }
+  },
+  // --- edit
+  {
+    "key": "cmd+shift+backspace",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  // --- css
+  {
+    "key": "cmd+shift+k",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": ".$2 {\n\t@apply $1;\n}" // -3
+    }
+  },
+  // --- html
+  {
+    "key": "cmd+shift+m",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "<div class='$2'>$1</div>$3" // -3
+    }
+  },
+  // --- debug
+  {
+    "key": "cmd+shift+d",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "debugger;" // -2
+    }
+  },
+  {
+    "key": "cmd+shift+alt+l",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "console.log(`🐬 -' : ${JSON.stringify($1, null, 4)}`);" // -1
+    }
+  },
+  // ###
+  // ### [cmd + number]
+  // ###
+  {
+    "key": "cmd+9",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "cmd+8",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": " class=\"$1\" " // -2
+    }
+  },
+  {
+    "key": "cmd+7",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "@apply $1; " // -2
+    }
+  },
+  // --- edition fold / unfold
+  {
+    "key": "cmd+0",
+    "command": "editor.fold",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+0",
+    "command": "editor.unfold"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "-workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  }
+  // ###
+  // ### Z
+  // ###
+  // @@@ terminal (delete inside term)
+  // {
+  //   "key": "cmd+left",
+  //   "command": "workbench.action.terminal.sendSequence",
+  //   "args": { "text": "\u001bb" }
+  // },
+  // {
+  //   "key": "cmd+right",
+  //   "command": "workbench.action.terminal.sendSequence",
+  //   "args": { "text": "\u001bf" }
+  // },
+  // {
+  //   "key": "cmd+backspace",
+  //   "command": "workbench.action.terminal.sendSequence",
+  //   "args": { "text": "0x17" }
+  // },
+  // {
+  //   "key": "ctrl+backspace",
+  //   "command": "workbench.action.terminal.sendSequence",
+  //   "args": { "text": "0x18" }
+  // }
+  // @@@ z
+  // --- jump bracket todo
+  // Jump to matching bracket	⇧⌘\	editor.action.jumpToBracket
+  // {
+  // 	"key": "alt+cmd+0",
+  // 	"command": "editor.action.jumpToBracket",
+  // 	"when": "editorTextFocus"
+  // },
+  // {
+  // 	"key": "ctrl+shift+alt+cmd+l",
+  // 	"command": "-editor.action.jumpToBracket",
+  // 	"when": "editorTextFocus"
+  // },
+]
+// ###
+// ### END
+// ###

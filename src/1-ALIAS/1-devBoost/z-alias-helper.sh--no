@@ -1,0 +1,50 @@
+#@@@
+#@@@ comment
+#@@@
+
+npm install --global kill-port
+
+# ----------------------------------------------------
+# history > history.js
+# GET USER'S ACCOUNT NAME: id -un
+# ----------------------------------------------------
+# ls -1 | wc -l
+# $ which -a less
+# ----------------------------------------------------
+
+# MAC CMD
+defaults write com.apple.finder AppleShowAllFiles -bool YES
+chmod go-w /Users/x/2-mac/2-com/
+brew cask list
+brew list
+brew install < list.txt
+
+# RESTORE
+# RESTORE MAC=http://sourabhbajaj.com/mac-setup/iTerm/zsh.html
+
+# README
+# https://github.com/robbyrussell/oh-my-zsh
+# https://github.com/bhilburn/powerlevel9k
+# http://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html
+# https://nerdfonts.com
+
+# STD-ALIAS
+# File search functions
+function f() { find . -iname "*$1*" ${@:2} }
+function r() { grep "$1" ${@:2} -R . }
+
+# .ZSHRC (orig)
+# If you come from bash you might have to change your $PATH.
+export  PATH=$HOME/bin:/usr/local/bin:$PATH
+PATH="/usr/local/bin:$PATH"
+
+# Add commonly used folders to $PATH
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+chsh -s $(which zsh)
+chsh -s /usr/local/bin/zsh
+
+# VOICI le ZSH de hombrew in local
+which zsh
+# /usr/local/bin/zsh
+
+# ! End

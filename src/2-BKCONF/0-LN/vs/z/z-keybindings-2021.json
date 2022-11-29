@@ -1,0 +1,333 @@
+[
+  // !!!
+  // !!! 29 juin 2022 / vs / KEYBINDING
+  // !!!
+
+  // !!!
+  // !!! CMD + number
+  // !!!
+  // moves
+  // {
+  //     "key": "cmd+0",
+  //     "command": "-workbench.action.focusSideBar"
+  // },
+  {
+    "key": "cmd+s",
+    "command": "workbench.action.files.saveAll"
+  },
+  {
+    "key": "cmd+0",
+    "command": "editor.fold",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+)",
+    "command": "editor.unfold",
+    "when": "editorTextFocus"
+  },
+  // {
+  //     "key": "cmd+[Minus]",
+  //     "command": "editor.unfold"
+  // },
+  // { "key": "cmd+2", //==> cannot use because already binded to screenshot captor },
+  // editor
+  {
+    "key": "cmd+5",
+    "command": "editor.action.format",
+    "when": "editorTextFocus"
+  },
+  // !! formatage: plugin / ALIGN code regexp
+  {
+    "key": "cmd+4",
+    "command": "align.by.regex", // "align.by.regex.templates": { "abc": "=|,|:"} ).
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  // !! formatage: classique
+  // {
+  //   "key": "cmd+3",
+  // !!  "command": "workbench.action.terminal.sendSequence",
+  //   "args": {
+  //     // "text": "yarn start\u000D"
+  //  !!   // "text": "npm run start\u000D"
+  //     "text": "npm run test\u000D"
+  //   }
+  // },
+  {
+    "key": "cmd+8",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": " class=\"$1\" " // -2
+    }
+  },
+  {
+    "key": "cmd+7",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "@apply $1; " // -2
+    }
+  },
+  {
+    "key": "cmd+9",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  // !!!
+  // !!! moves
+  // !!!
+  {
+    "key": "ctrl+alt+right",
+    "command": "cursorEndSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+alt+left",
+    "command": "cursorHomeSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+ctrl+left",
+    "command": "workbench.action.navigateBack"
+  },
+  {
+    "key": "cmd+ctrl+right",
+    "command": "workbench.action.navigateForward"
+  },
+  // editor
+  {
+    "key": "cmd+shift+backspace",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  // search
+  {
+    "key": "cmd+shift+alt+enter",
+    "command": "editor.action.replaceAll",
+    "when": "editorFocus && findWidgetVisible"
+  },
+  {
+    "key": "cmd+shift+alt+enter",
+    "command": "search.action.replaceAll",
+    "when": "replaceActive && searchViewletVisible && !findWidgetVisible"
+  },
+  {
+    "key": "shift+space",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+space",
+    "command": "-editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+  },
+  // !!!
+  // !!! ALT + alpha
+  // !!!
+  {
+    "key": "alt+w",
+    "command": "editor.emmet.action.wrapIndividualLinesWithAbbreviation",
+    "when": "editorHasSelection && editorTextFocus"
+  },
+  // !!!
+  // !!! CMD + SHIFT + ?
+  // !!!
+  {
+    "key": "cmd+shift+d",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "debugger;" // -2
+    }
+  },
+  {
+    "key": "cmd+shift+c",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "if($1) {}" // -2
+    }
+  },
+  {
+    "key": "cmd+shift+`",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "{#if $1 === $2}{/if}" // -2
+    }
+  },
+  {
+    "key": "cmd+shift+x",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "{#each $1 as $2, i}\n$3\n{/each}" // -2
+    }
+  },
+  {
+    "key": "cmd+shift+1",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "import $1 from './components/$1/$1.svelte';" // -2
+    }
+  },
+  {
+    "key": "cmd+shift+2",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "<script>\n$1</script>\n$2" // -2
+    }
+  },
+  {
+    "key": "cmd+shift+l",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "console.log($1);" // -1
+    }
+  },
+  {
+    "key": "cmd+shift+alt+l",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "console.log(`🐬 -' : ${JSON.stringify($1, null, 4)}`);" // -1
+    }
+  },
+  {
+    "key": "cmd+shift+k",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": ".$2 {\n\t@apply $1;\n}" // -3
+    }
+  },
+  {
+    "key": "cmd+shift+m",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "<div class='$2'>$1</div>$3" // -3
+    }
+  },
+  {
+    "key": "cmd+shift+j",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "@apply $1;" // -3
+    }
+  },
+  // {
+  //     "key": "cmd+shift+j",
+  //     "command": "editor.action.insertSnippet",
+  //     "when": "editorTextFocus",
+  //     "args": {
+  //         "snippet": "<div class='w-full h-full bg-red-100 $1'>\n$2</div>" // -3
+  //     }
+  // },
+  {
+    "key": "cmd+shift+i",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "<div class='w-full h-full grid grid-cols-4 $1'>\n$2</div>" // -3
+    }
+  },
+  {
+    "key": "cmd+shift+alt+m",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "class='$1'" // -3
+    }
+  },
+  // !!!
+  // !!! debug / launch controls
+  // !!!
+  {
+    "key": "cmd+3",
+    "command": "workbench.action.debug.continue",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "cmd+shift+enter",
+    "command": "workbench.action.debug.start"
+  },
+  {
+    "key": "cmd+alt+enter",
+    "command": "workbench.action.debug.restart",
+    "when": "inDebugMode"
+  },
+  {
+    "key": "[IntlBackslash]",
+    "command": "workbench.action.debug.stepOver",
+    "when": "debugState == 'stopped'"
+  },
+  {
+    "key": "shift+cmd+0",
+    "command": "editor.unfold"
+  },
+  {
+    "key": "alt+cmd+0",
+    "command": "editor.action.jumpToBracket",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+cmd+l",
+    "command": "-editor.action.jumpToBracket",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+[IntlBackslash]",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k cmd+i",
+    "command": "-editor.action.showHover",
+    "when": "editorTextFocus"
+  }
+]
+// !!!
+// !!! Z
+// !!!
+// {
+//   "key"    : "cmd+0",
+//   "command": "editor.action.jumpToBracket",
+//   "when"   : "editorTextFocus"
+// },
+// debug / launch controls
+// {
+//     "key": "cmd+shift+=",
+//     "command": "editor.unfold",
+//     "when": "editorTextFocus"
+// },
+/// https://github.com/wesbos/dotfiles
+/// these are my custom vscode shortcuts
+/// [
+///   {
+///     "key": "ctrl+shift+alt+cmd+e",
+///     "command": "editor.action.marker.next",
+///     "when": "editorFocus && !editorReadonly"
+///   },
+//  {
+//    "key": "tab",
+//    "command": "editor.emmet.action.expandAbbreviation",
+//    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+//  },
+// plugin ALIGN code = OFF
+// {
+//     "key": "cmd+E",
+//     "command": "wwm.aligncode",
+//     "when": "editorTextFocus && !editorReadonly"
+// },
+// {
+//     "key": "cmd+alt+=",
+//     "command": "editor.action.insertSnippet",
+//     "when": "editorTextFocus",
+//     "args": {
+//         "snippet": ""
+//     }
+// },

@@ -1,0 +1,728 @@
+{
+  // -0
+  // -0 24 dec 2021 / vs-search GLOBAL
+  // -0
+  // -0 Todo Highlight (grosses barres)
+  "todohighlight.keywords": [
+    {
+      "text": "window.alert",
+      "color": "white",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "console.",
+      "color": "white",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<svelte:head>",
+      "color": "black",
+      "backgroundColor": "#737373",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "</svelte:head>",
+      "color": "black",
+      "backgroundColor": "#737373",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "import ",
+      "color": "black",
+      "backgroundColor": "#737373",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": " from '",
+      "color": "black",
+      "backgroundColor": "#737373",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": " from \"",
+      "color": "black",
+      "backgroundColor": "#737373",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "export ",
+      "color": "black",
+      "backgroundColor": "#737373",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# :",
+      "color": "black",
+      "backgroundColor": "#737373",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "// :",
+      "color": "black",
+      "backgroundColor": "#737373",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    // {
+    //   "text": " * ",
+    //   "color": "black",
+    //   "backgroundColor": "#737373",
+    //   "isWholeLine": true,
+    //   "overviewRulerColor": "transparent"
+    // },
+    // {
+    //   "text": "/**",
+    //   "color": "black",
+    //   "backgroundColor": "#737373",
+    //   "isWholeLine": true,
+    //   "overviewRulerColor": "transparent"
+    // },
+    // {
+    //   "text": " */",
+    //   "color": "black",
+    //   "backgroundColor": "#737373",
+    //   "isWholeLine": true,
+    //   "overviewRulerColor": "transparent"
+    // },
+    // {
+    //   "text": " *",
+    //   "color": "black",
+    //   "backgroundColor": "#737373",
+    //   "isWholeLine": true,
+    //   "overviewRulerColor": "transparent"
+    // },
+    {
+      "text": "# -1",
+      "color": "black",
+      "backgroundColor": "#8eb7e4",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "// -1",
+      "color": "black",
+      "backgroundColor": "#8eb7e4",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<!-- 1 -->",
+      "color": "black",
+      "backgroundColor": "#8eb7e4",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# 1",
+      "color": "black",
+      "backgroundColor": "#8eb7e4",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "// 1",
+      "color": "black",
+      "backgroundColor": "#8eb7e4",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "// -0",
+      "color": "black",
+      "backgroundColor": "#03af49",
+      "isWholeLine": true,
+      "overviewRulerColor": "#9be55e"
+    },
+    {
+      "text": "# -0",
+      "color": "black",
+      "backgroundColor": "#03af49",
+      "isWholeLine": true,
+      "overviewRulerColor": "#9be55e"
+    },
+    {
+      "text": "// 0",
+      "color": "black",
+      "backgroundColor": "#9be55e",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# 0",
+      "color": "black",
+      "backgroundColor": "#9be55e",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# -2",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "// -2",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "// 2",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# 2",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<!-- 2 -->",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<script context=",
+      "color": "white",
+      "backgroundColor": "red",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<script",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "onMount",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "onMount(() => {",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "function handle",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "async function handle",
+      "color": "white",
+      "backgroundColor": "blue",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "</script>",
+      "color": "black",
+      "backgroundColor": "green",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<style>",
+      "color": "black",
+      "backgroundColor": "purple",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "</style>",
+      "color": "black",
+      "backgroundColor": "purple",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "// -3",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# -3",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "// 3",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "# 3",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "/* 3 */",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<!-- 3 -->",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<Tailwind />",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "<Auth />",
+      "color": "black",
+      "backgroundColor": "#e4e455",
+      "isWholeLine": false,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "https:",
+      "color": "#3890ff",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    },
+    {
+      "text": "http:",
+      "color": "#3890ff",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "overviewRulerColor": "transparent"
+    }
+  ],
+  "todohighlight.isEnable": true,
+  // "todohighlight.isCaseSensitive": true,
+  // -0 TEXT MATE
+  // "tokenColors": [
+  //   {
+  //     "scope": [
+  //       "punctuation.definition.comment"
+  //     ],
+  //     "settings": {
+  //       "foreground": "#EEFFFF"
+  //     }
+  //   },
+  // ],
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          // "punctuation.definition.comment",
+          "comment.block.documentation",
+          "storage.type.class.jsdoc",
+          "comment.block.documentation.js",
+          "variable.other.jsdoc"
+        ],
+        "settings": {
+          "foreground": "#ff007f",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be in italics (=Pacifico)
+          // "comment",
+          "entity.name.type.class", //class names
+          "keyword", //import, export, return…
+          //"support.class.builtin.js", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js", //class keyword
+          "storage.type.function.js", // function keyword
+          "storage.type.js", // Variable declarations
+          "keyword.control.import.js", // Imports
+          "keyword.control.from.js", // From-Keyword
+          //"entity.name.type.js", // new … Expression
+          "keyword.control.flow.js", // await
+          "keyword.control.conditional.js", // if
+          "keyword.control.loop.js", // for
+          "keyword.operator.new.js" // new
+          // "entity.name.tag",
+          // "punctuation.definition.tag",
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["comment"],
+        "settings": {
+          "fontStyle": "underline"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (My theme (Monokai dark) has some defaults I don't want to be in italics)
+          // "comment",
+          "variable.other.property.js",
+          "meta.import.js variable.other",
+          "variable.other.object.js",
+          "variable.other.constant",
+          "entity.name.function",
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json",
+          "entity.name.type.class.js"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  // -0 theme - https://code.visualstudio.com/api/references/theme-color
+  "workbench.colorCustomizations": {
+    // 0 git
+    "gitDecoration.ignoredResourceForeground": "#0000",
+    "gitDecoration.modifiedResourceForeground": "#e5f481",
+    //
+    "gitDecoration.addedResourceForeground": "#13cf13",
+    "gitDecoration.untrackedResourceForeground": "#13cf13",
+    //
+    "gitDecoration.deletedResourceForeground": "#ff0000",
+    "gitDecoration.conflictingResourceForeground": "#009adc",
+    //
+    // "editor.lineHighlightBorder": "#f4e7f6",
+    // "editor.lineHighlightBackground"                  : "#f4e7f6",
+    // ?
+    // "breadcrumb.background"                           : "#ffffff",
+    // "breadcrumb.foreground"                           : "#000000",
+    // 0 terminal
+    // "terminal.foreground"                             : "#00FD61",
+    "terminal.background": "#2d2d2d",
+    // panel
+    // "sideBar.background"                              : "#e1e1e1",
+    // "list.hoverBackground"                            : "#41a6d9",
+    // 0
+    // "breadcrumb.foreground"                           : "#b2ff00",
+    // "breadcrumb.background"                           : "#000",
+    // "breadcrumb.focusForeground"                      : "#818181",
+    // "breadcrumb.activeSelectionForeground"            : "#ff01dd",
+    // "breadcrumbPicker.background"                     : "#FFF",
+    // // ctrl + p => autocomplete CMD
+    // "list.focusBackground"                            : "#000",
+    // "list.focusForeground"                            : "#07cdff",
+    // "pickerGroup.border"                              : "#ff0000",
+    // "pickerGroup.foreground"                          : "#ffffff",
+    // "quickInput.background"                           : "#FAC03B", // ctrl + p
+    // "quickInput.foreground"                           : "#000",
+    // "quickInputTitle.background"                      : "#ff0000", // cmd palette
+    // // documentation popup
+    // "editorWidget.background"                         : "#334b67", // ctrl+F
+    // "editorWidget.foreground"                         : "#ffffff",
+    // "editorWidget.border"                             : "#000000",
+    // "editorHoverWidget.foreground"                    : "#e9e9e9",
+    // 2 Find
+    // "editor.findMatchBackground": "#ffd500",
+    "editor.findMatchBackground": "#bfa003",
+    "editor.findMatchHighlightBorder": "#bfa003",
+    "editor.wordHighlightBorder": "#ff0000",
+    // "editorOverviewRuler.findMatchForeground"         : "#ff0000",
+    // "editor.findMatchHighlightBackground"             : "#ff0000",
+    // "editor.findMatchBorder"                          : "#00d0ff",
+    // "editor.wordHighlightBackground"                  : "#ffffff",
+    // "editor.lineHighlightBorder"                      : "#000",
+    // "editor.renderLineHighlight"                      : "all",
+    // 0 SUGGGEST AUTOCOMPLETE (inside code)
+    // "editorSuggestWidget.selectedBackground"          : "#000",
+    // "editorSuggestWidget.highlightForeground"         : "#a601ff",
+    // "editorSuggestWidget.foreground"                  : "#000",
+    // "editorSuggestWidget.background"                  : "#FAC03B",
+    "editorCursor.foreground": "#9be55e",
+    // "editorCursor.foreground"                         : "#ff01dd",
+    // "editorGutter.foldingControlForeground"           : "#FFF",
+    // "editorGutter.background"                         : "#202020",
+    // "editorGutter.addedBackground"                    : "#0b831f",
+    // "editorGutter.deletedBackground"                  : "#e7eb16",
+    // "editorGutter.modifiedBackground"                 : "#008cff",
+    // // "debugConsole.errorForeground"                 : "#FFF",
+    // "editorOverviewRuler.border"                      : "#000",
+    // "editorGroupHeader.tabsBackground"                : "#202020",
+    // "statusBar.debuggingBackground"                   : "#05e474",
+    // "statusBar.debuggingForeground"                   : "#000",
+    // "statusBar.background"                            : "#000",
+    // "statusBar.foreground"                            : "#818181",
+    // "terminal.selectionBackground"                    : "#ffee7f6e",
+    // "terminal.background"                             : "#1D2021",
+    // "terminal.foreground"                             : "#cabba5",
+    // "terminalCursor.background"                       : "#A89984",
+    // "terminalCursor.foreground"                       : "#A89984",
+    // "terminal.ansiBlack"                              : "#1D2021",
+    // "terminal.ansiBlue"                               : "#4096bb",
+    // "terminal.ansiBrightBlack"                        : "#665C54",
+    // "terminal.ansiBrightBlue"                         : "#12cdf2",
+    // "terminal.ansiBrightCyan"                         : "#90d5bb",
+    // "terminal.ansiBrightGreen"                        : "#95C085",
+    // "terminal.ansiBrightMagenta"                      : "#e361b1",
+    // "terminal.ansiBrightRed"                          : "#da6151",
+    // "terminal.ansiBrightWhite"                        : "#FDF4C1",
+    // "terminal.ansiBrightYellow"                       : "#FAC03B",
+    // "terminal.ansiCyan"                               : "#8BA59B",
+    // "terminal.ansiGreen"                              : "#95C085",
+    // "terminal.ansiMagenta"                            : "#fff70f",
+    // "terminal.ansiRed"                                : "#FB543F",
+    // "terminal.ansiWhite"                              : "#A89984",
+    // "terminal.ansiYellow"                             : "#FAC03B",
+    // "badge.foreground"                                : "#000",
+    // "badge.background"                                : "#FAC03B",
+    // "activityBar.background"                          : "#202020",
+    // "activityBar.foreground"                          : "#05e474",
+    // "activityBar.inactiveForeground"                  : "#5e5e5e",
+    // "titleBar.activeBackground"                       : "#000",
+    // "titleBar.activeForeground"                       : "#737373",
+    // "sideBar.foreground"                              : "#FFF",
+    // "sideBar.background"                              : "#000000",
+    // "sideBarSectionHeader.background"                 : "#424242",
+    // "sideBarSectionHeader.foreground"                 : "#aeaeae",
+    // // "scrollbarSlider.hoverBackground"              : "#e3e3e3",
+    // "tab.activeBackground"                            : "#0249cc",
+    // "tab.activeForeground"                            : "#FFF",
+    // "tab.inactiveForeground"                          : "#ffffff",
+    // "tab.inactiveBackground"                          : "#666878",
+    // "list.highlightForeground"                        : "#ff0000", // ctrl + p ==> match occ
+    // "list.activeSelectionForeground"                  : "#FFF",
+    // "list.inactiveSelectionForeground"                : "#FFF",
+    "list.activeSelectionBackground": "#0249cc",
+    "list.inactiveSelectionBackground": "#0249cc",
+    "list.inactiveSelectionForeground": "#0249cc",
+    "list.hoverForeground": "#000",
+    "list.hoverBackground": "#ffea00"
+    // //
+    // "tree.indentGuidesStroke"                         : "#ff01dd",
+    // "list.invalidItemForeground"                      : "#ff01dd",
+    // "list.errorForeground"                            : "#ff7300",
+    // "list.warningForeground"                          : "#e5ff00",
+  },
+  // -2 file / explorer
+  "files.exclude": {
+    //     // global
+    //     "**/node_modules"                             : true,
+    //     "**/yarn.lock"                                : true,
+    //     "**/yarn-error.log"                           : true,
+    //     "**/package-lock.json"                        : true,
+    //     ".firebase"                                   : true,
+    //     "firebase-debug.log"                          : true,
+    //     ".editorconfig"                               : true,
+    //     "license.txt"                                 : true,
+    //     "favicon.ico"                                 : true,
+    //     // PERSO
+  },
+  // -2 search / exclude
+  "search.exclude": {
+    "**/node_modules/": true,
+    "**/public/": true,
+    "**/build/": true,
+    "**/.firebase/": true,
+    "**/.git/": true,
+    "**.lock": true,
+    "**lock.json": true
+  },
+  // -2 Bracket Pair - ceci met un trait bleu epais entre les acolades <-- CA marche plus ds svelte ?
+  "bracketPairColorizer.scopeLineCSS": [
+    "borderStyle                                         : solid",
+    "borderWidth                                         : 3px",
+    "backgroundColor                                     : #9be55e",
+    "borderColor                                         : #9be55e",
+    "color                                               : black"
+  ],
+  "bracketPairColorizer.showBracketsInGutter": true,
+  "bracketPairColorizer.showBracketsInRuler": true,
+  "bracketPairColorizer.showHorizontalScopeLine": true,
+  "bracketPairColorizer.showVerticalScopeLine": true,
+  "bracketPairColorizer.scopeLineRelativePosition": false,
+  // "bracket-pair-colorizer-2.activeScopeCSS": [
+  //   "borderStyle                                         : solid",
+  //   "borderWidth                                         : 5px",
+  //   "borderColor                                         : #9be55e",
+  //   "opacity                                             : 1"
+  // ],
+  // -0
+  // -0
+  // -0
+  // -0 Highlight
+  "highlightwords.showSidebar": false,
+  // PLUG / HIGHLIGHT / TAG HTML
+  // "highlight-matching-tag.highlightSelfClosing"       : true,
+  // "highlight-matching-tag.highlightFromContent"       : true,
+  // "highlight-matching-tag.styles"                     : {
+  //     "opening"                                       : {
+  //         "full"                                      : {
+  //             "underline"                             : "blue",
+  //             "highlight"                             : "gainsboro",
+  //         },
+  //     }
+  // },
+  // 2
+  // 2
+  // 2
+  // "editor.autoIndent"                                 : "full",
+  // "editor.cursorBlinking"                             : "solid",
+  // "editor.cursorSmoothCaretAnimation"                 : true,
+  // "editor.cursorStyle"                                : "line",
+  // "editor.fontFamily"                                 : "Dank Mono, Fira Code  ,Inconsolata",
+  // "editor.formatOnPaste"                              : true,
+  // "editor.formatOnType"                               : false,
+  // "editor.letterSpacing"                              : 0.3,
+  // "editor.lineHeight"                                 : 25,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.tabCompletion": "on",
+  // "editor.wordWrap": "on",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "search.showLineNumbers": true,
+  "zenMode.centerLayout": false,
+  // -0 - FORMAT
+  // =>  I want to use elint formattter
+  // => ESLINT CONFIG + format + autosave on save - https://daveceddia.com/vscode-use-eslintrc/ooooooooooooooo
+  "eslint.alwaysShowStatus": true,
+  // "editor.defaultFormatter"                           : "dbaeumer.vscode-eslint",
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true
+  },
+  // 1 SVELTE
+  // "svelte.enable-ts-plugin"                           : true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  // "liveServer.settings.port"                          : 5001,
+  // https                                               ://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint#settings-options
+  // "eslint.workingDirectories"                         : [ "./functions" ],
+  // "eslint.validate"                                   : ["typescript", "typescriptreact"],
+  // "html.format.enable"                                : false,
+  // 1 TAILWIND
+  // unknow conf
+  // "tailwindCSS.colorDecorators"                       : true,
+  // "tailwindCSS.includeLanguages"                      : {
+  //     "plaintext"                                     : "html"
+  // },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  // "css.validate"                                      : false,
+  // 1 EDITOR
+  // "editor.fontFamily"                                 : "Cascadia Code",
+  // "editor.fontFamily"                                 : "Dank Mono, FuraCode Nerd Font, Inconsolata",
+  // "editor.fontFamily"                                 : "flottflott",
+  // "editor.fontFamily"                                 : "FuraCode Nerd Font",
+  "editor.fontFamily": "Firicico",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "editor.tabSize": 2,
+  "editor.cursorSurroundingLines": 5,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorWidth": 3,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.cursorStyle": "line",
+  "editor.suggestSelection": "first",
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.side": "right",
+  "editor.minimap.maxColumn": 80,
+  "editor.minimap.scale": 3,
+  "editor.minimap.size": "fit",
+  "editor.rulers": [80],
+  // -0 EDITOR SUGGESTION
+  "editor.suggest.showConstants": false,
+  "editor.suggest.showEvents": false,
+  "editor.suggest.showIssues": false,
+  "editor.suggest.showKeywords": false,
+  "editor.suggest.showOperators": false,
+  "editor.suggest.showUsers": false,
+  // -0 TERMINAL
+  // "terminal.integrated.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontFamily": "Firicico",
+  "terminal.integrated.fontSize": 14,
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.scrollback": 4000,
+  // "terminal.integrated.shell.osx"                     : "/bin/zsh",
+  // "terminal.integrated.fontFamily"                    : "FuraCode Nerd Font",
+  // -0
+  "workbench.colorTheme": "Winter is Coming (Dark Blue)",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // -0 Default
+  // "window.restoreWindows"                             : "folders",
+  // "html.format.wrapAttributes"                        : "force-aligned", "force",
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "extensions.ignoreRecommendations": true,
+  "editor.accessibilitySupport": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  "svelte.enable-ts-plugin": true,
+  // "terminal.integrated.env.osx": {
+  //     "FIG_NEW_SESSION": "1"
+  // },
+  "bracketPairColorizer.depreciation-notice": false,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "bracketPairColorizer.colorMode": "Independent",
+  "editor.suggest.showIcons": false,
+  "workbench.iconTheme": null,
+  "editor.renderWhitespace": "trailing",
+  "editor.trimAutoWhitespace": false,
+  "window.zoomLevel": -1
+}
