@@ -1,8 +1,0 @@
-/___ENV__
-0-DROP
-
-.DS_Store
-
-.env
-.env.*
-!.env.example
